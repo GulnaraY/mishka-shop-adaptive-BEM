@@ -1,7 +1,7 @@
 # Личный проект «Мишка» [![Build status][travis-image]][travis-url] [![Dependency status][dependency-image]][dependency-url]
 
 * Студент: [Гульнара Якупова](https://up.htmlacademy.ru/adaptive/16/user/258701).
-* Наставник: `Неизвестно`.
+* Наставник: [Никита Дубко](https://up.htmlacademy.ru/adaptive/16/user/345007).
 
 ---
 
