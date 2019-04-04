@@ -10,29 +10,23 @@
       <img class="page-header__logo-image" src="http://placehold.it/150x100" alt="Логотип интернет-магазина Мишка">
     </a>
     <button class="page-header__nav-toggle main-nav__toggle" type="button" aria-label="Открыть меню"></button>
-    <nav class="main-nav">
-      <div class="main-nav__wrapper">
-        <ul class="main-nav__list site-memu">
-          <li class="site-menu__item">
-            <a href="catalog.html">Каталог товаров</a>
-          </li>
-          <li class="site-menu__item">
-            <a href="form.html">Вязание на заказ</a>
-          </li>
-        </ul>
-        <ul class="main-nav__list user-menu">
-          <li class="user-menu__item">
-            <form class="search-form" action="https://echo.htmlacademy.ru" method="get">
-              <input class="search-form__input" type="search" name="search-message" aria-label="Поиск по сайту" placeholder="Поиск по сайту">
-              <button class="search-form__button" type="submit"><span class="visually-hidden">Найти</span></button>
-            </form>
-          </li>
-          <li class="user-menu__item">
-            <a class="cart" href="cart.html">Корзина: <span class="cart__status">пока пуста</span></a>
-          </li>
-        </ul>
-      </div>
-    </nav>
+    <nav class=" page-header__item main-nav">
+        <div class="main-nav__wrapper">
+          <ul class="main-nav__list site-memu">
+            <li class="site-menu__item">
+              <a href="catalog.html">Каталог товаров</a>
+            </li>
+            <li class="site-menu__item">
+              <a href="form.html">Вязание на заказ</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <form class="page-header__item search-form" action="https://echo.htmlacademy.ru" method="get">
+        <input class="search-form__input" type="search" name="search-message" aria-label="Поиск по сайту" placeholder="Поиск по сайту">
+        <button class="search-form__button" type="submit"><span class="visually-hidden">Найти</span></button>
+      </form>
+      <a class="page-header__item cart" href="cart.html">Корзина: <span class="cart__status">пока пуста</span></a>
   </header>
   <footer class="page-footer">
     <div class="page-footer__wrapper">
