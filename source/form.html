@@ -43,9 +43,16 @@
     <fieldset class="order-form__item">
       <legend class="order-form__title">Тип</legend>
       <input class="order-form__radio" type="radio" name="type" value="accessory" id="accessory-field" checked>
-      <label for="accessory-field">Аксессуар для интерьера</label>
+      <label class="order-form__radio-label" for="accessory-field">Аксессуар для интерьера</label>
       <input class="order-form__radio" type="radio" name="type" value="toy" id="toy-field">
-      <label for="toy-field">Детская игрушка</label>
+      <label class="order-form__radio-label" for="toy-field">Детская игрушка</label>
+    </fieldset>
+    <fieldset class="order-form__item">
+        <legend class="order-form__title">Цвет</legend>
+        <input type="checkbox" class="order-form__checkbox" name="white-color" id="white-color-field" checked>
+        <label class="order-form__chbx-label" for="white-color-field">Белый</label>
+        <input type="checkbox" class="order-form__checkbox" name="grey-color" id="grey-color-field" checked>
+        <label class="order-form__chbx-label" for="grey-color-field">Серый</label>
     </fieldset>
     </form>
   </main>
