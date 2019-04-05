@@ -2,37 +2,31 @@
 <html lang="ru">
 <head>
   <meta charset="utf-8">
-  <title>HTML Academy: Мишка</title>
+  <title>Заказать игрушки и аксессуары для дома в нашем магазине</title>
 </head>
 <body>
   <header class="page-header">
-    <a href="index.html" class="page-header__logo">
+    <a href="index.html" class="page-header__logo"  title="Перейти на главную страницу сайта">
       <img class="page-header__logo-image" src="http://placehold.it/150x100" alt="Логотип интернет-магазина Мишка">
     </a>
-    <nav class="main-nav">
-      <button class="main-nav__toggle" type=button><span class="visually-hidden">Открыть меню</span></button>
-      <div class="main-nav__wrapper">
-        <ul class="main-nav__list site-memu">
-          <li class="site-menu__item">
+    <div class="page-header__actions site-navigation">
+      <button class="site-navigation__toggle" type="button" aria-label="Открыть меню"></button>
+      <nav class="site-navigation__nav main-nav">
+        <ul class="main-nav__list">
+          <li class=" site-navigation__item main-nav__item">
             <a href="catalog.html">Каталог товаров</a>
           </li>
-          <li class="site-menu__item">
-            <a href="form.html">Вязание на заказ</a>
+          <li class="site-navigation__item main-nav__item">
+            <a class="main-nav__current-page">Вязание на заказ</a>
           </li>
         </ul>
-        <ul class="main-nav__list user-menu">
-          <li class="user-menu__item">
-            <form class="search-form" action="https://echo.htmlacademy.ru" method="get">
-              <input class="search-form__input" type="search" name="search-message" aria-label="Поиск по сайту" placeholder="Поиск по сайту">
-              <button class="search-form__button" type="submit"><span class="visually-hidden">Найти</span></button>
-            </form>
-          </li>
-          <li class="user-menu__item">
-            <a class="cart" href="cart.html">Корзина: <span class="cart__status">пока пуста</span></a>
-          </li>
-        </ul>
-      </div>
-    </nav>
+      </nav>
+      <form class="site-navigation__item search-form" action="https://echo.htmlacademy.ru" method="get">
+        <input class="search-form__input" type="search" name="search-message" aria-label="Поиск по сайту" placeholder="Поиск по сайту">
+        <button class="search-form__button" type="submit"><span class="visually-hidden">Найти</span></button>
+      </form>
+      <a class="site-navigation__item cart" href="cart.html">Корзина: <span class="cart__status">пока пуста</span></a>
+    </div>
   </header>
   <main class="main-page">
     <h1 class="main-page__title">Вязание на заказ</h1>
@@ -103,7 +97,7 @@
         </ul>
       </div>
       <div class="page-footer__copyright copyright">
-        <b class="copyright__text">Разработано:</b>
+        <span class="copyright__text">Разработано:</span>
         <a class="copyright__link" href="https://htmlacademy.ru/intensive/adaptive"><span class="visually-hidden">HTML Academy</span></a>
       </div>
     </div>

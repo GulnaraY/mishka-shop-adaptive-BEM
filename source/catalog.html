@@ -2,78 +2,69 @@
 <html lang="ru">
 <head>
   <meta charset="utf-8">
-  <title>HTML Academy: Мишка</title>
+  <title>Каталог товаров в интернет-магазине Мишка</title>
 </head>
 <body>
   <header class="page-header">
-    <a href="index.html" class="page-header__logo">
+    <a href="index.html" class="page-header__logo" title="Перейти на главную страницу сайта">
       <img class="page-header__logo-image" src="http://placehold.it/150x100" alt="Логотип интернет-магазина Мишка">
     </a>
-    <nav class="main-nav">
-      <button class="main-nav__toggle" type=button><span class="visually-hidden">Открыть меню</span></button>
-      <div class="main-nav__wrapper">
-        <ul class="main-nav__list site-memu">
-          <li class="site-menu__item">
-            <a href="catalog.html">Каталог товаров</a>
+    <div class="page-header__actions site-navigation">
+      <button class="site-navigation__toggle" type="button" aria-label="Открыть меню"></button>
+      <nav class="site-navigation__nav main-nav">
+        <ul class="main-nav__list">
+          <li class=" site-navigation__item main-nav__item">
+            <a class="main-nav__current-page">Каталог товаров</a>
           </li>
-          <li class="site-menu__item">
+          <li class="site-navigation__item main-nav__item">
             <a href="form.html">Вязание на заказ</a>
           </li>
         </ul>
-        <ul class="main-nav__list user-menu">
-          <li class="user-menu__item">
-            <form class="search-form" action="https://echo.htmlacademy.ru" method="get">
-              <input class="search-form__input" type="search" name="search-message" aria-label="Поиск по сайту" placeholder="Поиск по сайту">
-              <button class="search-form__button" type="submit"><span class="visually-hidden">Найти</span></button>
-            </form>
-          </li>
-          <li class="user-menu__item">
-            <a class="cart" href="cart.html">Корзина: <span class="cart__status">пока пуста</span></a>
-          </li>
-        </ul>
-      </div>
-    </nav>
+      </nav>
+      <form class="site-navigation__item search-form" action="https://echo.htmlacademy.ru" method="get">
+        <input class="search-form__input" type="search" name="search-message" aria-label="Поиск по сайту" placeholder="Поиск по сайту">
+        <button class="search-form__button" type="submit"><span class="visually-hidden">Найти</span></button>
+      </form>
+      <a class="site-navigation__item cart" href="cart.html">Корзина: <span class="cart__status">пока пуста</span></a>
+    </div>
   </header>
   <main class="main-page">
     <section class="main-page__catalog products-catalog">
-      <h1 class="products-catalog__title">Каталог товаров</h1>
+      <h1 class="products-catalog__title page-title">Каталог товаров</h1>
       <ul class="products-catalog__list products-list">
         <li class="products-list__item catalog-card">
           <h2 class="catalog-card__title">Зайчик-попрыгайчик</h2>
-          <img class="catalog-card__image" src="http://placehold.it/150x100" alt="Фото товара Зайчик-попрыгайчик">
+          <img class="catalog-card__image" src="http://placehold.it/150x100" alt="Фото товара &laquo;Зайчик-попрыгайчик&raquo;">
           <p class="catalog-card__parameters">
-            <span class="catalog-card__height">Рост: 30 см</span>,
-            <span class="catalog-card__weight">Вес: 200 г</span>
+            Рост: 30 см, Вес: 200 г
           </p>
           <p class="catalog-card__pricing">
             <b class="catalog-card__price">1 200 руб.</b>
-            <a class="catalog-card__cart-link" href="cart.html"><span class="visually-hidden">В корзину</span></a>
+            <a class="catalog-card__cart-link" href="cart.html"><span class="visually-hidden">Добавить в корзину</span></a>
           </p>
         </li>
         <li class="products-list__item catalog-card">
-            <h2 class="catalog-card__title">Корзинка для белья</h2>
-            <img class="catalog-card__image" src="http://placehold.it/150x100" alt="Фото товара Зайчик-попрыгайчик">
-            <p class="catalog-card__parameters">
-              <span class="catalog-card__diameter">Диаметр: 15 см</span>,
-              <span class="catalog-card__height">Высота: 10 см</span>
-            </p>
-            <p class="catalog-card__pricing">
-              <b class="catalog-card__price">690 руб.</b>
-              <a class="catalog-card__cart-link" href="cart.html"><span class="visually-hidden">В корзину</span></a>
-            </p>
-          </li>
-          <li class="products-list__item catalog-card">
-              <h2 class="catalog-card__title">Большая корзинка для игрушек</h2>
-              <img class="catalog-card__image" src="http://placehold.it/150x100" alt="Фото товара Зайчик-попрыгайчик">
-              <p class="catalog-card__parameters">
-                <span class="catalog-card__diameter">Диаметр: 30 см</span>,
-                <span class="catalog-card__height">Высота: 30 см</span>
-              </p>
-              <p class="catalog-card__pricing">
-                <b class="catalog-card__price">1 500 руб.</b>
-                <a class="catalog-card__cart-link" href="cart.html"><span class="visually-hidden">В корзину</span></a>
-              </p>
-            </li>
+          <h2 class="catalog-card__title">Корзинка для белья</h2>
+          <img class="catalog-card__image" src="http://placehold.it/150x100" alt="Фото товара &laquo;Корзинка для белья&raquo;">
+          <p class="catalog-card__parameters">
+            Диаметр: 15 см, Высота: 10 см
+          </p>
+          <p class="catalog-card__pricing">
+            <b class="catalog-card__price">690 руб.</b>
+            <a class="catalog-card__cart-link" href="cart.html"><span class="visually-hidden">Добавить в корзину</span></a>
+          </p>
+        </li>
+        <li class="products-list__item catalog-card">
+          <h2 class="catalog-card__title">Большая корзинка для игрушек</h2>
+          <img class="catalog-card__image" src="http://placehold.it/150x100" alt="Фото товара &laquo;Большая корзинка для игрушек&raquo;">
+          <p class="catalog-card__parameters">
+            Диаметр: 30 см, Высота: 30 см
+          </p>
+          <p class="catalog-card__pricing">
+            <b class="catalog-card__price">1 500 руб.</b>
+            <a class="catalog-card__cart-link" href="cart.html"><span class="visually-hidden">Добавить в корзину</span></a>
+          </p>
+        </li>
       </ul>
     </section>
     <section class="manufacturing">
@@ -100,10 +91,22 @@
         </ul>
       </div>
       <div class="page-footer__copyright copyright">
-        <b class="copyright__text">Разработано:</b>
+        <span class="copyright__text">Разработано:</span>
         <a class="copyright__link" href="https://htmlacademy.ru/intensive/adaptive"><span class="visually-hidden">HTML Academy</span></a>
       </div>
     </div>
   </footer>
+  <section class="modal to-cart">
+      <h2 class="to-cart__title">Добавить в корзину</h2>
+      <form action="https://echo.htmlacademy.ru" class="to-cart__form">
+        <input class="to-cart__size" type="radio" name="size" value="s" id="size-s" checked>
+        <label class="to-cart__label" for="size-s">S</label>
+        <input class="to-cart__size" type="radio" name="size" value="m" id="size-m">
+        <label class="to-cart__label" for="size-m">M</label>
+        <input class="to-cart__size" type="radio" name="size" value="l" id="size-l">
+        <label class="to-cart__label" for="size-l">L</label>
+        <button class="button to-cart__button" type="submit">Добавить</button>
+      </form>
+    </section>
 </body>
 </html>
