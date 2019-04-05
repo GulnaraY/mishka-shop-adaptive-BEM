@@ -71,6 +71,15 @@
       <label class="order-form__text-label" for="patronymic-name">Отчество</label>
       <input class="order-form__text" name="patronymic-name" id="patronymic-name" type="text" placeholder="Отчество, если желаете">
     </fieldset>
+    <fieldset class="order-form__item">
+      <legend class="order-form__title">Тел</legend>
+      <input type="tel" name="phone" required placeholder="+7 XXX XXX XX XX*" pattern="(\+7) [0-9]{3} [0-9]{3} [0-9]{2} [0-9]{2}">
+    </fieldset>
+    <fieldset class="order-form__item">
+      <legend class="order-form__title">E-mail</legend>
+      <input type="email" name="email" required placeholder="Ваш Email*">
+    </fieldset>
+    <button class="order-form__send button" type="submit">Отправить заказ</button>
     </form>
   </main>
   <footer class="page-footer">
