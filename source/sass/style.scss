@@ -1,0 +1,21 @@
+$main-background : #fff;
+$main-color : #000;
+
+@mixin hover{
+  &:hover,
+  &:focus{
+    opacity: 0.6;
+  }
+}
+
+@mixin active {
+  &:active{
+    opacity: 0.3;
+  }
+}
+
+
+body{
+  background-color: $main-background;
+  color: $main-color;
+}
