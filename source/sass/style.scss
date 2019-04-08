@@ -1,10 +1,13 @@
-@import "utils/variables.scss";
-@import "utils/mixins.scss";
-@import "global.scss";
-@import "blocks/visually-hidden.scss";
-@import "blocks/page-header.scss";
-@import "blocks/site-navigation.scss";
-@import "blocks/main-nav.scss"
+@import "utils/_variables";
+@import "utils/_mixins";
+@import "_global";
+@import "blocks/_visually-hidden";
+@import "blocks/page-header/_page-header";
+@import "blocks/page-header/_site-navigation";
+@import "blocks/page-header/_main-nav";
+@import "blocks/page-main/_page-main";
+@import "blocks/page-main/promo-block/_promo-block";
+@import "blocks/page-main/promo-block/_categories-list";
 
 
 
