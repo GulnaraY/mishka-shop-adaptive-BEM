@@ -1,21 +1,9 @@
-$main-background : #fff;
-$main-color : #000;
-
-@mixin hover{
-  &:hover,
-  &:focus{
-    opacity: 0.6;
-  }
-}
-
-@mixin active {
-  &:active{
-    opacity: 0.3;
-  }
-}
+@import "utils/variables.scss";
+@import "global.scss";
+@import "blocks/page-header.scss";
+@import "blocks/site-navigation.scss";
+@import "blocks/main-nav.scss"
 
 
-body{
-  background-color: $main-background;
-  color: $main-color;
-}
+
+
