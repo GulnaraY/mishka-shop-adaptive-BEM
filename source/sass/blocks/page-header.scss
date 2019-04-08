@@ -2,8 +2,12 @@
 
 }
 
-.page-header-logo{
+.page-header__wrapper{
+  @include mobile-wrapper;
+}
 
+.page-header-logo{
+  border-bottom: 1px solid #ececec;
 }
 
 .page-header__logo-image{
