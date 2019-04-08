@@ -1,14 +1,17 @@
+@import "utils/normalize";
 @import "utils/_variables";
 @import "utils/_mixins";
 @import "_global";
 @import "blocks/_visually-hidden";
+@import "blocks/_button";
 @import "blocks/page-header/_page-header";
 @import "blocks/page-header/_site-navigation";
 @import "blocks/page-header/_main-nav";
 @import "blocks/page-main/_page-main";
 @import "blocks/page-main/promo-block/_promo-block";
 @import "blocks/page-main/promo-block/_categories-list";
-
+@import "blocks/page-main/top-product/_top-product";
+@import "blocks/page-main/top-product/_options-table";
 
 
 

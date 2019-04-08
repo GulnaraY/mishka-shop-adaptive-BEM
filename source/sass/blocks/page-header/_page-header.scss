@@ -6,7 +6,8 @@
   @include mobile-wrapper;
 }
 
-.page-header-logo{
+.page-header__logo{
+  display: block;
   border-bottom: 1px solid #ececec;
 }
 
