@@ -34,42 +34,44 @@
   </header>
   <main class="main-page">
     <section class="main-page__catalog products-catalog">
-      <h1 class="products-catalog__title page-title">Каталог товаров</h1>
-      <ul class="products-catalog__list products-list">
-        <li class="products-list__item catalog-card">
-          <h2 class="catalog-card__title">Зайчик-попрыгайчик</h2>
-          <img class="catalog-card__image" src="http://placehold.it/150x100" alt="Фото товара &laquo;Зайчик-попрыгайчик&raquo;">
-          <p class="catalog-card__parameters">
-            Рост: 30 см, Вес: 200 г
-          </p>
-          <p class="catalog-card__pricing">
-            <b class="catalog-card__price">1 200 руб.</b>
-            <a class="catalog-card__cart-link" href="cart.html"><span class="visually-hidden">Добавить в корзину</span></a>
-          </p>
-        </li>
-        <li class="products-list__item catalog-card">
-          <h2 class="catalog-card__title">Корзинка для белья</h2>
-          <img class="catalog-card__image" src="http://placehold.it/150x100" alt="Фото товара &laquo;Корзинка для белья&raquo;">
-          <p class="catalog-card__parameters">
-            Диаметр: 15 см, Высота: 10 см
-          </p>
-          <p class="catalog-card__pricing">
-            <b class="catalog-card__price">690 руб.</b>
-            <a class="catalog-card__cart-link" href="cart.html"><span class="visually-hidden">Добавить в корзину</span></a>
-          </p>
-        </li>
-        <li class="products-list__item catalog-card">
-          <h2 class="catalog-card__title">Большая корзинка для игрушек</h2>
-          <img class="catalog-card__image" src="http://placehold.it/150x100" alt="Фото товара &laquo;Большая корзинка для игрушек&raquo;">
-          <p class="catalog-card__parameters">
-            Диаметр: 30 см, Высота: 30 см
-          </p>
-          <p class="catalog-card__pricing">
-            <b class="catalog-card__price">1 500 руб.</b>
-            <a class="catalog-card__cart-link" href="cart.html"><span class="visually-hidden">Добавить в корзину</span></a>
-          </p>
-        </li>
-      </ul>
+      <div class="products-catalog__wrapper">
+        <h1 class="products-catalog__title page-title">Каталог товаров</h1>
+        <ul class="products-catalog__list products-list">
+          <li class="products-list__item catalog-card">
+            <h2 class="catalog-card__title">Зайчик-попрыгайчик</h2>
+            <img class="catalog-card__image" src="http://placehold.it/150x100" alt="Фото товара &laquo;Зайчик-попрыгайчик&raquo;">
+            <p class="catalog-card__parameters">
+              Рост: 30 см, Вес: 200 г
+            </p>
+            <p class="catalog-card__pricing">
+              <b class="catalog-card__price">1 200 руб.</b>
+              <a class="catalog-card__cart-link" href="cart.html"><span class="visually-hidden">Добавить в корзину</span></a>
+            </p>
+          </li>
+          <li class="products-list__item catalog-card">
+            <h2 class="catalog-card__title">Корзинка для белья</h2>
+            <img class="catalog-card__image" src="http://placehold.it/150x100" alt="Фото товара &laquo;Корзинка для белья&raquo;">
+            <p class="catalog-card__parameters">
+              Диаметр: 15 см, Высота: 10 см
+            </p>
+            <p class="catalog-card__pricing">
+              <b class="catalog-card__price">690 руб.</b>
+              <a class="catalog-card__cart-link" href="cart.html"><span class="visually-hidden">Добавить в корзину</span></a>
+            </p>
+          </li>
+          <li class="products-list__item catalog-card">
+            <h2 class="catalog-card__title">Большая корзинка для игрушек</h2>
+            <img class="catalog-card__image" src="http://placehold.it/150x100" alt="Фото товара &laquo;Большая корзинка для игрушек&raquo;">
+            <p class="catalog-card__parameters">
+              Диаметр: 30 см, Высота: 30 см
+            </p>
+            <p class="catalog-card__pricing">
+              <b class="catalog-card__price">1 500 руб.</b>
+              <a class="catalog-card__cart-link" href="cart.html"><span class="visually-hidden">Добавить в корзину</span></a>
+            </p>
+          </li>
+        </ul>
+      </div>
     </section>
   </main>
   <footer class="page-footer">
@@ -95,17 +97,17 @@
   </footer>
   <section class="modal to-cart">
     <div class="modal__wrapper">
-    <h2 class="to-cart__title">Добавить в корзину</h2>
-    <span class="to-cart__invite">Выберите размер:</span>
-    <form action="https://echo.htmlacademy.ru" class="to-cart__form">
-      <input class="to-cart__size" type="radio" name="size" value="s" id="size-s" checked>
-      <label class="to-cart__label" for="size-s">S</label>
-      <input class="to-cart__size" type="radio" name="size" value="m" id="size-m">
-      <label class="to-cart__label" for="size-m">M</label>
-      <input class="to-cart__size" type="radio" name="size" value="l" id="size-l">
-      <label class="to-cart__label" for="size-l">L</label>
-      <button class="button to-cart__button" type="submit">Добавить</button>
-    </form>
+      <h2 class="to-cart__title">Добавить в корзину</h2>
+      <span class="to-cart__invite">Выберите размер:</span>
+      <form action="https://echo.htmlacademy.ru" class="to-cart__form">
+        <input class="to-cart__size" type="radio" name="size" value="s" id="size-s" checked>
+        <label class="to-cart__label" for="size-s">S</label>
+        <input class="to-cart__size" type="radio" name="size" value="m" id="size-m">
+        <label class="to-cart__label" for="size-m">M</label>
+        <input class="to-cart__size" type="radio" name="size" value="l" id="size-l">
+        <label class="to-cart__label" for="size-l">L</label>
+        <button class="button to-cart__button" type="submit">Добавить</button>
+      </form>
     </div>
   </section>
 </body>
