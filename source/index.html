@@ -3,45 +3,50 @@
 <head>
   <meta charset="utf-8">
   <title>Мишка: милые игрушки для дома</title>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&amp;subset=cyrillic" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
   <header class="page-header">
-    <a class="page-header__logo">
-      <img class="page-header__logo-image" src="http://placehold.it/150x100" alt="Логотип интернет-магазина Мишка">
-    </a>
-    <div class="page-header__actions site-navigation">
-      <button class="site-navigation__toggle" type="button" aria-label="Открыть меню"></button>
-      <nav class="site-navigation__nav main-nav">
-        <ul class="main-nav__list">
-          <li class=" site-navigation__item main-nav__item">
-            <a href="catalog.html">Каталог товаров</a>
-          </li>
-          <li class="site-navigation__item main-nav__item">
-            <a href="form.html">Вязание на заказ</a>
-          </li>
-        </ul>
-      </nav>
-      <form class="site-navigation__item search-form" action="https://echo.htmlacademy.ru" method="get">
-        <input class="search-form__input" type="search" name="search-message" aria-label="Поиск по сайту" placeholder="Поиск по сайту">
-        <button class="search-form__button" type="submit"><span class="visually-hidden">Найти</span></button>
-      </form>
-      <a class="site-navigation__item cart" href="cart.html">Корзина: <span class="cart__status">пока пуста</span></a>
+    <div class="page-header__wrapper">
+      <a class="page-header__logo">
+        <img class="page-header__logo-image" src="http://placehold.it/150x100" alt="Логотип интернет-магазина Мишка">
+      </a>
+      <div class="page-header__actions site-navigation">
+        <button class="site-navigation__toggle" type="button" aria-label="Открыть меню"></button>
+        <nav class="site-navigation__nav main-nav">
+          <ul class="main-nav__list">
+            <li class=" site-navigation__item main-nav__item">
+              <a class="site-navigation__link" href="catalog.html">Каталог товаров</a>
+            </li>
+            <li class="site-navigation__item main-nav__item">
+              <a class="site-navigation__link" href="form.html">Вязание на заказ</a>
+            </li>
+          </ul>
+        </nav>
+        <form class="site-navigation__item search-form" action="https://echo.htmlacademy.ru" method="get">
+          <input class="search-form__input site-navigation__input" type="search" name="search-message" aria-label="Поиск по сайту" placeholder="Поиск по сайту">
+          <button class="search-form__button" type="submit"><span class="visually-hidden">Найти</span></button>
+        </form>
+        <a class="site-navigation__item cart" href="cart.html">Корзина: <span class="cart__status">пока пуста</span></a>
+      </div>
     </div>
   </header>
   <main class="page-main">
-    <h1 class="visusually-hidden">Мишка &mdash; интернет-магазин игрушек ручной работы</h1>
+    <h1 class="visually-hidden">Мишка &mdash; интернет-магазин игрушек ручной работы</h1>
     <section class="promo-block">
-      <div class="promo-block__wrapper">
+      <div class="promo-block__intro promo-block__wrapper">
         <h2 class="promo-block__title">Милые штуки для дома ручной работы</h2>
+      </div>
         <ul class="promo-block__categories categories-list">
-          <li class="categories-list__item">
-            <a href="#">Предметы интерьера</a>
+          <li class="categories-list__item promo-block__wrapper">
+            <a class="categories-list__link" href="#">Предметы интерьера</a>
           </li>
-          <li class="categories-list__item">
-            <a href="#">Детские игрушки</a>
+          <li class="categories-list__item categories-list__second-item promo-block__wrapper">
+            <a class="categories-list__link" href="#">Детские игрушки</a>
           </li>
         </ul>
-      </div>
+
     </section>
     <section class="top-product">
       <div class="top-product__wrapper">
@@ -55,18 +60,19 @@
             <th>Значение</th>
           </tr>
           <tr class="options-table__data-row">
-            <th>Цвет:</th>
+            <td>Цвет:</td>
             <td>&laquo;Тиффани&raquo;/серый</td>
           </tr>
           <tr class="options-table__data-row">
-            <th>Диаметр:</th>
+            <td>Диаметр:</td>
             <td>25 см</td>
           </tr>
           <tr class="options-table__data-row">
-            <th>Высота:</th>
+            <td>Высота:</t>
             <td>15 см</td>
           </tr>
         </table>
+        <img class="top-product__image" src="http://placehold.it/150x100" alt="Фото товара &laquo;Вязаные корзинки&raquo;">
         <p class="top-product__price-block">Цена: <b class="top-product__price">990 руб.</b></p>
         <a class="top-product__button button" href="form.html">Заказать</a>
       </div>
@@ -134,7 +140,9 @@
     </div>
   </footer>
   <section class="modal to-cart">
+    <div class="modal__wrapper">
     <h2 class="to-cart__title">Добавить в корзину</h2>
+    <span class="to-cart__invite">Выберите размер:</span>
     <form action="https://echo.htmlacademy.ru" class="to-cart__form">
       <input class="to-cart__size" type="radio" name="size" value="s" id="size-s" checked>
       <label class="to-cart__label" for="size-s">S</label>
@@ -144,6 +152,7 @@
       <label class="to-cart__label" for="size-l">L</label>
       <button class="button to-cart__button" type="submit">Добавить</button>
     </form>
+    </div>
   </section>
 </body>
 </html>

@@ -1,0 +1,18 @@
+.page-header{
+
+}
+
+.page-header__wrapper{
+  @include mobile-wrapper;
+}
+
+.page-header__logo{
+  display: block;
+  border-bottom: 1px solid $border-color;
+}
+
+.page-header__logo-image{
+
+}
+
+

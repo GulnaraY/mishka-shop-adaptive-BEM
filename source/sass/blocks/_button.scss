@@ -1,0 +1,10 @@
+.button{
+  border: 1px solid $content-color;
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  color: $content-color;
+  font-size: $font-size-m;
+  line-height: $line-height-xs;
+  cursor: pointer;
+}

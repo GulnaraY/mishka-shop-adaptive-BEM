@@ -1,0 +1,25 @@
+.promo-block{
+
+}
+
+.promo-block__wrapper{
+  @include mobile-wrapper;
+}
+
+.promo-block__intro{
+  background-image: url("../img/hero-mobile@1x.jpg");
+  background-repeat: no-repeat;
+  background-position: 0 0;
+}
+
+.promo-block__title{
+  margin: 0;
+  padding: 0;
+
+
+  font-weight: $font-weight-bold;
+  font-size: $font-size-xxl;
+  line-height: $line-height-xm;
+}
+
+
