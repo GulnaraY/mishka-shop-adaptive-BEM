@@ -1,3 +1,8 @@
 .page-main{
 
 }
+
+.page-main__wrapper{
+  @include mobile-wrapper;
+}
+
