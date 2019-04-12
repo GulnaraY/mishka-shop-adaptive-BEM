@@ -1,4 +1,4 @@
-@import "../../node_modules/normalize.css/normalize.css";
+@import "utils/normalize";
 @import "utils/fonts";
 @import "utils/variables";
 @import "utils/mixins";
@@ -26,4 +26,5 @@
 @import "blocks/page-main/products-catalog/products-list";
 @import "blocks/page-main/products-catalog/catalog-card";
 @import "blocks/page-main/contacts/contacts";
-@import "blocks/page-main/manufacture/manufacture"
+@import "blocks/page-main/manufacture/manufacture";
+@import "blocks/page-main/order-form/order-form";
