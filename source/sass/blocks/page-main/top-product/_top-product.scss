@@ -48,3 +48,34 @@
 .top-product__button{
   margin-bottom: 36px;
 }
+
+@media (min-width: $tablet-full-width){
+  .top-product__wrapper{
+    @include tablet-wrapper;
+    position: relative;
+  }
+
+  .top-product__image{
+    position: absolute;
+    top: 30px;
+    right: 0;
+  }
+
+  .top-product__label{
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+}
+
+@media (min-width: $desktop-full-width){
+  .top-product__wrapper{
+    @include desktop-wrapper;
+    padding-left: 225px;
+  }
+
+  .top-product__label{
+    top: 0;
+    left: 50px;
+  }
+}
