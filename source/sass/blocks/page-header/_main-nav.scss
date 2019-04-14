@@ -13,7 +13,13 @@
 }
 
 @media (min-width: $tablet-full-width){
+  .main-nav{
 
+  }
+  .main-nav__list{
+    display: flex;
+    width: 334px;
+  }
 }
 
 @media (max-width: $desktop-full-width){

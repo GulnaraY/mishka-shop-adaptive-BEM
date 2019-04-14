@@ -7,12 +7,11 @@
 </head>
 <body>
   <header class="page-header">
-    <div class="page-header__wrapper">
-      <a href="index.html" class="page-header__logo"  title="Перейти на главную страницу сайта">
-        <img class="page-header__logo-image" src="http://placehold.it/150x100" alt="Логотип интернет-магазина Мишка">
-      </a>
-      <div class="page-header__actions site-navigation">
-        <button class="site-navigation__toggle" type="button" aria-label="Открыть меню"></button>
+    <div class="page-header__wrapper site-navigation">
+      <div class="site-navigation__first-block">
+        <a href="index.html" class="site-navigation__logo"  title="Перейти на главную страницу сайта">
+          <img class="site-navigation__logo-image" src="http://placehold.it/150x100" alt="Логотип интернет-магазина Мишка">
+        </a>
         <nav class="site-navigation__nav main-nav">
           <ul class="main-nav__list">
             <li class=" site-navigation__item main-nav__item">
@@ -23,12 +22,15 @@
             </li>
           </ul>
         </nav>
+      </div>
+      <div class="site-navigation__second-block">
         <form class="site-navigation__item search-form" action="https://echo.htmlacademy.ru" method="get">
           <input class="search-form__input site-navigation__input" type="search" name="search-message" aria-label="Поиск по сайту" placeholder="Поиск по сайту">
           <button class="search-form__button" type="submit"><span class="visually-hidden">Найти</span></button>
         </form>
         <a class="site-navigation__item cart" href="cart.html">Корзина: <span class="cart__status">пока пуста</span></a>
       </div>
+      <button class="site-navigation__toggle" type="button" aria-label="Открыть меню"></button>
     </div>
   </header>
   <main class="page-main">

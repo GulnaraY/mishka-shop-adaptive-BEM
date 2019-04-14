@@ -7,12 +7,11 @@
 </head>
 <body>
   <header class="page-header">
-    <div class="page-header__wrapper">
-      <a class="page-header__logo">
-        <img class="page-header__logo-image" src="http://placehold.it/150x100" alt="Логотип интернет-магазина Мишка">
-      </a>
-      <div class="page-header__actions site-navigation">
-        <button class="site-navigation__toggle" type="button" aria-label="Открыть меню"></button>
+    <div class="page-header__wrapper site-navigation">
+      <div class="site-navigation__first-block">
+        <a class="site-navigation__logo">
+          <img class="site-navigation__logo-image" src="http://placehold.it/150x100" alt="Логотип интернет-магазина Мишка">
+        </a>
         <nav class="site-navigation__nav main-nav">
           <ul class="main-nav__list">
             <li class=" site-navigation__item main-nav__item">
@@ -23,12 +22,15 @@
             </li>
           </ul>
         </nav>
+      </div>
+      <div class="site-navigation__second-block">
         <form class="site-navigation__item search-form" action="https://echo.htmlacademy.ru" method="get">
           <input class="search-form__input site-navigation__input" type="search" name="search-message" aria-label="Поиск по сайту" placeholder="Поиск по сайту">
           <button class="search-form__button" type="submit"><span class="visually-hidden">Найти</span></button>
         </form>
         <a class="site-navigation__item cart" href="cart.html">Корзина: <span class="cart__status">пока пуста</span></a>
       </div>
+      <button class="site-navigation__toggle" type="button" aria-label="Открыть меню"></button>
     </div>
   </header>
   <main class="page-main">
@@ -118,45 +120,45 @@
           <img class ="contacts__map-image" src="http://placehold.it/150x100" alt="Офис компании находится по адресу г. Санкт-Петербург, ул. Большая Конюшенная, д. 19/8, офис 101">
         </p>
         <div class="contacts__wrapper">
-        <a href="mailto:info@mimimishkashop.ru" class="button contacts__write">Напишите нам</a>
+          <a href="mailto:info@mimimishkashop.ru" class="button contacts__write">Напишите нам</a>
+        </div>
+      </section>
+    </main>
+    <footer class="page-footer">
+      <div class="page-footer__wrapper">
+        <div class="page-footer__social social">
+          <ul class="social__list">
+            <li class="social__item">
+              <a href="#" class="social__link social__link--inst"><span class="visually-hidden">Мы в Инстаграме</span></a>
+            </li>
+            <li class="social__item">
+              <a href="#" class="social__link social__link--fb"><span class="visually-hidden">Мы в Фейсбуке</span></a>
+            </li>
+            <li class="social__item">
+              <a href="#" class="social__link social__link--tw"><span class="visually-hidden">Мы в Твиттере</span></a>
+            </li>
+          </ul>
+        </div>
+        <div class="page-footer__copyright copyright">
+          <span class="copyright__text">Разработано:</span>
+          <a class="copyright__link" href="https://htmlacademy.ru/intensive/adaptive"><span class="visually-hidden">HTML Academy</span></a>
+        </div>
+      </div>
+    </footer>
+    <section class="modal to-cart">
+      <div class="modal__wrapper">
+        <h2 class="to-cart__title">Добавить в корзину</h2>
+        <span class="to-cart__invite">Выберите размер:</span>
+        <form action="https://echo.htmlacademy.ru" class="to-cart__form">
+          <input class="to-cart__size" type="radio" name="size" value="s" id="size-s" checked>
+          <label class="to-cart__label" for="size-s">S</label>
+          <input class="to-cart__size" type="radio" name="size" value="m" id="size-m">
+          <label class="to-cart__label" for="size-m">M</label>
+          <input class="to-cart__size" type="radio" name="size" value="l" id="size-l">
+          <label class="to-cart__label" for="size-l">L</label>
+          <button class="button to-cart__button" type="submit">Добавить</button>
+        </form>
       </div>
     </section>
-  </main>
-  <footer class="page-footer">
-    <div class="page-footer__wrapper">
-      <div class="page-footer__social social">
-        <ul class="social__list">
-          <li class="social__item">
-            <a href="#" class="social__link social__link--inst"><span class="visually-hidden">Мы в Инстаграме</span></a>
-          </li>
-          <li class="social__item">
-            <a href="#" class="social__link social__link--fb"><span class="visually-hidden">Мы в Фейсбуке</span></a>
-          </li>
-          <li class="social__item">
-            <a href="#" class="social__link social__link--tw"><span class="visually-hidden">Мы в Твиттере</span></a>
-          </li>
-        </ul>
-      </div>
-      <div class="page-footer__copyright copyright">
-        <span class="copyright__text">Разработано:</span>
-        <a class="copyright__link" href="https://htmlacademy.ru/intensive/adaptive"><span class="visually-hidden">HTML Academy</span></a>
-      </div>
-    </div>
-  </footer>
-  <section class="modal to-cart">
-    <div class="modal__wrapper">
-      <h2 class="to-cart__title">Добавить в корзину</h2>
-      <span class="to-cart__invite">Выберите размер:</span>
-      <form action="https://echo.htmlacademy.ru" class="to-cart__form">
-        <input class="to-cart__size" type="radio" name="size" value="s" id="size-s" checked>
-        <label class="to-cart__label" for="size-s">S</label>
-        <input class="to-cart__size" type="radio" name="size" value="m" id="size-m">
-        <label class="to-cart__label" for="size-m">M</label>
-        <input class="to-cart__size" type="radio" name="size" value="l" id="size-l">
-        <label class="to-cart__label" for="size-l">L</label>
-        <button class="button to-cart__button" type="submit">Добавить</button>
-      </form>
-    </div>
-  </section>
-</body>
-</html>
+  </body>
+  </html>
