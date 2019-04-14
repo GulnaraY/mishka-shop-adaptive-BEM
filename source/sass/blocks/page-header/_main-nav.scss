@@ -1,3 +1,7 @@
+.main-nav{
+
+}
+
 .main-nav__list{
   list-style: $list-style;
   margin: 0;
@@ -5,5 +9,13 @@
 }
 
 .main-nav__item{
+
+}
+
+@media (min-width: $tablet-full-width){
+
+}
+
+@media (max-width: $desktop-full-width){
 
 }

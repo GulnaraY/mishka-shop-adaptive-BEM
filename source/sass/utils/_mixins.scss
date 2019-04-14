@@ -4,3 +4,17 @@
   padding-right: 30px;
   margin: 0 auto;
 }
+
+@mixin tablet-wrapper{
+  width: $tablet-width;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin: 0 auto;
+}
+
+@mixin desktop-wrapper {
+  width: $desktop-width;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin: 0 auto;
+}

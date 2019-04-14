@@ -2,6 +2,8 @@
   font-size: $font-size-m;
   font-weight:$font-weight-bold;
   line-height: $line-height-s;
+  display: flex;
+  flex-direction: column;
 }
 
 .site-navigation__toggle{
@@ -23,4 +25,14 @@
 
 .site-navigation__input{
   font:inherit;
+}
+
+@media (min-width: $tablet-full-width){
+  
+}
+
+@media (min-width: $desktop-full-width){
+  .site-navigation{
+
+  }
 }
