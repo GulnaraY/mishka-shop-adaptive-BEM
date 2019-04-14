@@ -21,3 +21,46 @@
 .features__item{
   padding-top: 85px;
 }
+
+.features__text{
+  padding: 0;
+  margin: 0;
+}
+
+
+@media (min-width: $tablet-full-width){
+  .features__wrapper{
+    @include tablet-wrapper;
+  }
+
+  .features__list{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 415px;
+    align-items: center;
+    align-content: center;
+  }
+
+  .features__item{
+    width: 283px;
+  }
+
+  .features__text{
+    width: 210px;
+  }
+}
+
+@media (min-width: $desktop-full-width){
+  .features__wrapper{
+    @include desktop-wrapper;
+  }
+
+  .features__title{
+    margin-left: 175px;
+  }
+
+  .features__item{
+    width: 297px;
+  }
+}
