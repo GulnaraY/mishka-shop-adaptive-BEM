@@ -2,7 +2,6 @@
   list-style: $list-style;
   margin: 0;
   padding: 0;
-
 }
 
 .categories-list__item{
@@ -16,3 +15,16 @@
 .categories-list__link{
   color: $accent-text-color;
 }
+
+@media (min-width: $tablet-full-width){
+  .categories-list{
+    display: flex;
+  }
+
+  .categories-list__item{
+    width: 50%;
+  }
+
+}
+
+

@@ -5,6 +5,11 @@
   margin: 0 auto;
 }
 
+@mixin mobile-full-wrapper{
+  width: $mobile-full-width;
+  margin: 0 auto;
+}
+
 @mixin tablet-wrapper{
   width: $tablet-width;
   padding-left: 50px;
