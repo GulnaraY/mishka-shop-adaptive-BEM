@@ -38,8 +38,8 @@
     flex-direction: column;
     flex-wrap: wrap;
     height: 415px;
-    align-items: center;
     align-content: center;
+    align-items: center;
   }
 
   .features__item{
@@ -53,11 +53,7 @@
 
 @media (min-width: $desktop-full-width){
   .features__wrapper{
-    @include desktop-wrapper;
-  }
-
-  .features__title{
-    margin-left: 175px;
+    @include desktop-leftpadding-wrapper;
   }
 
   .features__item{

@@ -70,8 +70,7 @@
 
 @media (min-width: $desktop-full-width){
   .top-product__wrapper{
-    @include desktop-wrapper;
-    padding-left: 225px;
+    @include desktop-leftpadding-wrapper;
   }
 
   .top-product__label{
