@@ -17,6 +17,11 @@
   margin: 0 auto;
 }
 
+@mixin tablet-full-wrapper{
+  width: $tablet-full-width;
+  margin: 0 auto;
+}
+
 @mixin desktop-wrapper{
   width: $desktop-width;
   padding-left: 50px;
@@ -28,5 +33,10 @@
   width: $desktop-leftpadding-width;
   padding-left: 225px;
   padding-right: 50px;
+  margin: 0 auto;
+}
+
+@mixin desktop-full-wrapper{
+  width: $desktop-full-width;
   margin: 0 auto;
 }
