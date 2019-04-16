@@ -8,10 +8,32 @@
  background-color: $accent-color-third;
 }
 
+.page-footer__logo{
+  display: none;
+}
+
 .page-footer__social{
 
 }
 
 .page-footer__copyright{
 
+}
+
+@media (min-width: $tablet-full-width){
+  .page-footer__wrapper{
+    @include tablet-wrapper;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .page-footer__logo{
+    display: block;
+  }
+}
+
+@media (min-width: $desktop-full-width){
+  .page-footer__wrapper{
+    @include desktop-wrapper;
+  }
 }
