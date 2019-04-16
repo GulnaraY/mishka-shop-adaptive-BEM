@@ -7,3 +7,10 @@
 .products-list__item{
 
 }
+
+@media (min-width: $desktop-full-width){
+  .products-list{
+    display: flex;
+    flex-wrap: wrap;
+  }
+}

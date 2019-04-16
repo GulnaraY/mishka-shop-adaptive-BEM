@@ -1,13 +1,20 @@
 .catalog-card{
   border: $catalog-page-border;
+  display: flex;
+  flex-direction: column;
 }
 
 .catalog-card__title{
   font-size: $font-size-m;
   line-height: $line-height-s;
+
 }
 
 .catalog-card__image{
+
+}
+
+.catalog-card__actions{
 
 }
 
@@ -28,5 +35,17 @@
 
 .catalog-card__cart-link{
 
+}
+
+@media (min-width: $tablet-full-width){
+  .catalog-card{
+    flex-direction: row;
+  }
+}
+
+@media (min-width: $desktop-full-width){
+  .catalog-card{
+    flex-direction: column;
+  }
 }
 
