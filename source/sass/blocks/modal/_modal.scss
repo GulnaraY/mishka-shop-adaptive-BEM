@@ -5,3 +5,10 @@
 .modal__wrapper{
   @include mobile-wrapper;
 }
+
+@media (min-width: $tablet-full-width){
+  .modal__wrapper{
+    @include tablet-desktop-popup-wrapper;
+  }
+}
+

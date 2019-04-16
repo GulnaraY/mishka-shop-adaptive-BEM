@@ -40,3 +40,10 @@
   width: $desktop-full-width;
   margin: 0 auto;
 }
+
+@mixin tablet-desktop-popup-wrapper{
+  width: $tablet-desktop-popup-width;
+  padding-left: 108px;
+  padding-right: 108px;
+  margin: 0 auto;
+}
