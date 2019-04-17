@@ -43,3 +43,15 @@
 .manufacture__order-button{
 
 }
+
+@media (min-width: $tablet-full-width){
+  .manufacture__wrapper{
+    @include tablet-wrapper;
+  }
+}
+
+@media (min-width: $desktop-full-width){
+  .manufacture__wrapper{
+    @include desktop-wrapper;
+  }
+}
