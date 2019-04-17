@@ -1,0 +1,19 @@
+.catalog-card {
+  border: $catalog-page-border;
+}
+
+.catalog-card__title {
+  font-size: $font-size-m;
+  line-height: $line-height-s;
+}
+
+.catalog-card__parameters {
+  color: $content-color;
+  font-size: $font-size-xs;
+  line-height: $line-height-m;
+}
+
+.catalog-card__price {
+  font-size: $font-size-s;
+  line-height: $line-height-s;
+}

@@ -1,0 +1,14 @@
+.button {
+  border: 1px solid $content-color;
+  display: inline-block;
+  vertical-align: middle;
+  width: 100%;
+  box-sizing: border-box;
+  text-transform: uppercase;
+  background-color: $main-background;
+  text-align: center;
+  color: $content-color;
+  font-size: $font-size-m;
+  line-height: $line-height-xs;
+  cursor: pointer;
+}

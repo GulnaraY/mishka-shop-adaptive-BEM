@@ -1,0 +1,41 @@
+.top-product__wrapper {
+  @include mobile-wrapper;
+}
+
+.top-product__title {
+  font-weight: $font-weight-bold;
+}
+
+.top-product__label {
+  font-weight: $font-weight-bold;
+  font-size: $font-size-m;
+  line-height: $line-height-xs;
+  color: $accent-color-main;
+}
+
+.top-product__description {
+  color: $content-color;
+  margin: 0;
+  padding: 0;
+  line-height: $line-height-s;
+}
+
+.top-product__options {
+  margin-bottom: 28px;
+}
+
+.top-product__image {
+  margin-bottom: 29px;
+}
+
+.top-product__price-block {
+  color: $content-color;
+  font-weight: $font-weight-bold;
+  font-size: $font-size-m;
+  line-height: $line-height-s;
+  margin-bottom: 28px;
+}
+
+.top-product__button {
+  margin-bottom: 36px;
+}

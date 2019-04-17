@@ -1,0 +1,28 @@
+.reviews__wrapper {
+  @include mobile-wrapper;
+}
+
+.reviews__item {
+  margin: 0;
+  padding: 0;
+  color: $content-color;
+}
+
+.reviews__text {
+  margin: 0;
+  padding: 0;
+}
+
+.reviews__author {
+  font-style: normal;
+  font-size: $font-size-m;
+}
+
+.reviews__author-name {
+  font-weight: $font-weight-bold;
+  line-height: $line-height-s;
+}
+
+.reviews__author-nickname {
+  line-height: $line-height-s;
+}

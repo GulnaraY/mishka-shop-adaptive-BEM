@@ -1,0 +1,23 @@
+.features {
+  font-weight: $font-weight-bold;
+}
+
+.features__wrapper {
+  @include mobile-wrapper;
+}
+
+.features__title {
+  margin-bottom: 34px;
+}
+
+.features__list {
+  list-style: $list-style;
+  margin: 0;
+  padding: 0;
+  font-size: $font-size-s;
+  line-height: $line-height-xs;
+}
+
+.features__item {
+  padding-top: 85px;
+}

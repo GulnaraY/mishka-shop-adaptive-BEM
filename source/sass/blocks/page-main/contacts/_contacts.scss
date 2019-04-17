@@ -1,0 +1,33 @@
+.contacts__wrapper {
+  @include mobile-wrapper;
+}
+
+.contacts__full-wrapper {
+  width: 320px;
+  margin: 0 auto;
+}
+
+.contacts__title {
+  margin: 0;
+  padding: 0;
+  font-weight: $font-weight-bold;
+  font-size: $font-size-xm;
+  line-height: $line-height-m;
+}
+
+.contacts__list {
+  color: $content-color;
+}
+
+.contacts__name {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.contacts__value {
+  display: inline-block;
+  vertical-align: top;
+  width: 178px;
+  margin: 0;
+  padding: 0;
+}

@@ -1,0 +1,18 @@
+.site-navigation {
+  font-size: $font-size-m;
+  font-weight: $font-weight-bold;
+  line-height: $line-height-s;
+}
+
+.site-navigation__item {
+  color: $main-color;
+  border-bottom: 1px solid #ececec;
+}
+
+.site-navigation__link {
+  color: $main-color;
+}
+
+.site-navigation__input {
+  font: inherit;
+}

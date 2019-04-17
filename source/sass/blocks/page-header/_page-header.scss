@@ -1,0 +1,8 @@
+.page-header__wrapper {
+  @include mobile-wrapper;
+}
+
+.page-header__logo {
+  display: block;
+  border-bottom: 1px solid $border-color;
+}
