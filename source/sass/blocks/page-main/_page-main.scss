@@ -1,14 +1,9 @@
-.page-main{
-
-}
-
-.page-main__wrapper{
+.page-main__wrapper {
   @include mobile-wrapper;
 }
 
-.page-main__intro{
+.page-main__intro {
   color: $content-color;
   font-size: $font-size-xs;
   line-height: $line-height-s;
 }
-

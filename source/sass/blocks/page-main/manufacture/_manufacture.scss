@@ -1,12 +1,8 @@
-.manufacture{
-
-}
-
-.manufacture__wrapper{
+.manufacture__wrapper {
   @include mobile-wrapper;
 }
 
-.manufacture__title{
+.manufacture__title {
   border: $catalog-page-border;
   margin: 0;
   padding: 0;
@@ -15,31 +11,15 @@
   font-weight: $font-weight-bold;
 }
 
-.manufacture__bottom-wrapper{
+.manufacture__bottom-wrapper {
   border: $catalog-page-border;
   border-top: none;
 }
 
-.manufacture__preview-image-wrapper{
-
-}
-
-.manufacture__video-preview{
-
-}
-
-.manufacture__video-button{
-
-}
-
-.manufacture__text{
+.manufacture__text {
   color: $content-color;
   font-size: $font-size-xs;
   line-height: $line-height-s;
   margin: 0;
   padding: 0;
-}
-
-.manufacture__order-button{
-
 }

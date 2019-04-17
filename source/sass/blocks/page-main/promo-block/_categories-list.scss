@@ -1,18 +1,17 @@
-.categories-list{
+.categories-list {
   list-style: $list-style;
   margin: 0;
   padding: 0;
-
 }
 
-.categories-list__item{
+.categories-list__item {
   background-color: $accent-color-main;
 }
 
-.categories-list__second-item{
+.categories-list__second-item {
   background-color: $accent-color-second;
 }
 
-.categories-list__link{
+.categories-list__link {
   color: $accent-text-color;
 }
