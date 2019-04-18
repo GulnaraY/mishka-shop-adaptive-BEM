@@ -1,6 +1,6 @@
-.site-navigation{
+.site-navigation {
   font-size: $font-size-m;
-  font-weight:$font-weight-bold;
+  font-weight: $font-weight-bold;
   line-height: $line-height-s;
   display: flex;
   flex-direction: column;
@@ -22,24 +22,16 @@
 
 }
 
-.site-navigation__toggle{
-
-}
-
-.site-navigation__nav{
-
-}
-
-.site-navigation__item{
+.site-navigation__item {
   color: $main-color;
 }
 
-.site-navigation__link{
+.site-navigation__link {
   color: $main-color;
 }
 
-.site-navigation__input{
-  font:inherit;
+.site-navigation__input {
+  font: inherit;
 }
 
 

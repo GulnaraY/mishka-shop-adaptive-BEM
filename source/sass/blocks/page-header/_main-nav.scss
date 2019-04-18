@@ -1,27 +1,14 @@
-.main-nav{
-
-}
-
-.main-nav__list{
+.main-nav__list {
   list-style: $list-style;
   margin: 0;
   padding: 0;
 }
 
-.main-nav__item{
+@media (min-width: $tablet-full-width) {
+  .main-nav {}
 
-}
-
-@media (min-width: $tablet-full-width){
-  .main-nav{
-
-  }
-  .main-nav__list{
+  .main-nav__list {
     display: flex;
     width: 334px;
   }
-}
-
-@media (max-width: $desktop-full-width){
-
 }

@@ -1,4 +1,4 @@
-html{
+html {
   background-color: $main-background;
   color: $main-color;
   font-size: $font-size-s;
@@ -6,16 +6,16 @@ html{
   font-family: $font;
 }
 
-body{
+body {
   margin: 0;
   min-width: 320px;
 }
 
-a{
+a {
   text-decoration: none;
 }
 
-img{
+img {
   max-width: 100%;
   height: auto;
 }

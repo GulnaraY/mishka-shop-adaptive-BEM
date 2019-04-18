@@ -1,8 +1,4 @@
-.order-form{
-
-}
-
-.order-form__item{
+.order-form__item {
   border: none;
   margin: 0;
   padding: 0;
@@ -10,7 +6,7 @@
   line-height: $line-height-sx;
 }
 
-.order-form__title{
+.order-form__title {
   color: $accent-color-main;
   font-size: $font-size-m;
   line-height: $line-height-xxs;
@@ -18,18 +14,8 @@
   border: none;
 }
 
-.order-form__element{
-
-}
-
-.order-form__note{
+.order-form__note {
   color: $content-color;
   font-size: $font-size-sx;
   line-height: $line-height-xxs;
 }
-
-.order-form__button{
-
-}
-
-

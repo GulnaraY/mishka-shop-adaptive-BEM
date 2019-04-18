@@ -1,30 +1,21 @@
-.to-cart{
-
-}
-
-.to-cart__title{
+.to-cart__title {
   font-size: $font-size-xl;
   line-height: $line-height-m;
 }
 
-.to-cart__invite{
+.to-cart__invite {
   font-size: $font-size-s;
   line-height: $line-height-m;
   color: $content-color;
 }
 
-.to-cart__size{
-
-}
-
-.to-cart__label{
+.to-cart__label {
   color: $content-color;
   font-size: $font-size-m;
   line-height: $line-height-xxs;
-
 }
 
-.to-cart__button{
+.to-cart__button {
   color: $accent-text-color;
   background-color: $accent-color-main;
   border: none;

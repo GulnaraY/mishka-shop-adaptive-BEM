@@ -1,20 +1,15 @@
-.page-header{
-
-}
-
-.page-header__wrapper{
+.page-header__wrapper {
   @include mobile-wrapper;
 }
 
-
-@media (min-width: $tablet-full-width){
-  .page-header__wrapper{
+@media (min-width: $tablet-full-width) {
+  .page-header__wrapper {
     @include tablet-wrapper;
   }
 }
 
-@media (min-width: $desktop-full-width){
-  .page-header__wrapper{
+@media (min-width: $desktop-full-width) {
+  .page-header__wrapper {
     @include desktop-wrapper;
   }
 }

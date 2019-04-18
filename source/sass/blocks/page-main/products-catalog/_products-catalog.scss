@@ -1,28 +1,15 @@
-.products-catalog{
-
-}
-
-.products-catalog__wrapper{
+.products-catalog__wrapper {
   @include mobile-wrapper;
 }
 
-.products-catalog__title{
-
-}
-
-.products-catalog__list{
-
-}
-
-@media (min-width: $tablet-full-width){
-  .products-catalog__wrapper{
-      @include tablet-wrapper;
+@media (min-width: $tablet-full-width) {
+  .products-catalog__wrapper {
+    @include tablet-wrapper;
   }
 }
 
-
-@media (min-width: $desktop-full-width){
-  .products-catalog__wrapper{
-      @include desktop-wrapper;
+@media (min-width: $desktop-full-width) {
+  .products-catalog__wrapper {
+    @include desktop-wrapper;
   }
 }

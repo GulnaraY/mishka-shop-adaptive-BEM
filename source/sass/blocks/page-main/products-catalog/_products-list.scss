@@ -1,15 +1,11 @@
-.products-list{
+.products-list {
   margin: 0;
   padding: 0;
   list-style: $list-style;
 }
 
-.products-list__item{
-
-}
-
-@media (min-width: $desktop-full-width){
-  .products-list{
+@media (min-width: $desktop-full-width) {
+  .products-list {
     display: flex;
     flex-wrap: wrap;
   }
