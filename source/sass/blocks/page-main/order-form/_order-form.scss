@@ -19,3 +19,55 @@
   font-size: $font-size-sx;
   line-height: $line-height-xxs;
 }
+
+.order-form__element {
+  margin: 0;
+  padding: 0;
+}
+
+@media (min-width: $tablet-full-width) {
+  .order-form__item-wrapper {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .order-form__right-block {
+    display: flex;
+    flex-wrap: wrap;
+    width: 500px;
+  }
+
+  .order-form__element {
+    width: 250px;
+  }
+
+  .order-form__title{
+    width: 48px;
+  }
+
+  .order-form__bottom {
+    display: flex;
+  }
+
+  .order-form__button {
+    width: 230px;
+  }
+
+  .order-form__note {
+    order: 2;
+  }
+}
+
+@media (min-width: $desktop-full-width) {
+  .order-form__right-block {
+    width: 786px;
+  }
+
+  .order-form__element {
+    width: 262px;
+  }
+
+  .order-form__title{
+    width: 145px;
+  }
+}

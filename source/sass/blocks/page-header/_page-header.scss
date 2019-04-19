@@ -2,7 +2,15 @@
   @include mobile-wrapper;
 }
 
+.page-header__additional-block {
+  display: none;
+}
+
 @media (min-width: $tablet-full-width) {
+  .page-header {
+    position: relative;
+  }
+
   .page-header__wrapper {
     @include tablet-wrapper;
   }
@@ -11,5 +19,13 @@
 @media (min-width: $desktop-full-width) {
   .page-header__wrapper {
     @include desktop-wrapper;
+  }
+
+  .page-header__additional-block {
+    position: absolute;
+    bottom: -30px;
+    left: 50px;
+    display: flex;
+    justify-content: space-between;
   }
 }
