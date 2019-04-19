@@ -30,8 +30,8 @@
 
 @media (min-width: $tablet-full-width) {
   .reviews__wrapper {
-    position: relative;
     @include tablet-wrapper;
+    position: relative;
     background-image: url("../img/review@1x.jpg");
     background-repeat: no-repeat;
     background-position: 0 0;
@@ -53,6 +53,6 @@
 
 @media (min-width: $desktop-full-width) {
   .reviews__wrapper {
-    @include desktop-leftpadding-wrapper
+    @include desktop-leftpadding-wrapper;
   }
 }

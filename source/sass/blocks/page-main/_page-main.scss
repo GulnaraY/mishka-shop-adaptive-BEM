@@ -9,13 +9,13 @@
 }
 
 @media (min-width: $tablet-full-width) {
-  .page-main__wrapper{
+  .page-main__wrapper {
     @include tablet-wrapper;
   }
 }
 
-@media (min-width: $desktop-full-width){
-  .page-main__wrapper{
+@media (min-width: $desktop-full-width) {
+  .page-main__wrapper {
     @include desktop-wrapper;
   }
 }

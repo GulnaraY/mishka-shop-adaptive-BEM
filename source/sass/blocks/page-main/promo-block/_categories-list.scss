@@ -16,15 +16,12 @@
   color: $accent-text-color;
 }
 
-@media (min-width: $tablet-full-width){
-  .categories-list{
+@media (min-width: $tablet-full-width) {
+  .categories-list {
     display: flex;
   }
 
-  .categories-list__item{
+  .categories-list__item {
     width: 50%;
   }
-
 }
-
-

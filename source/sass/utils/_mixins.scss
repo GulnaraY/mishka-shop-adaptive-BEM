@@ -5,43 +5,43 @@
   margin: 0 auto;
 }
 
-@mixin mobile-full-wrapper{
+@mixin mobile-full-wrapper {
   width: $mobile-full-width;
   margin: 0 auto;
 }
 
-@mixin tablet-wrapper{
+@mixin tablet-wrapper {
   width: $tablet-width;
   padding-left: 50px;
   padding-right: 50px;
   margin: 0 auto;
 }
 
-@mixin tablet-full-wrapper{
+@mixin tablet-full-wrapper {
   width: $tablet-full-width;
   margin: 0 auto;
 }
 
-@mixin desktop-wrapper{
+@mixin desktop-wrapper {
   width: $desktop-width;
   padding-left: 50px;
   padding-right: 50px;
   margin: 0 auto;
 }
 
-@mixin desktop-leftpadding-wrapper{
+@mixin desktop-leftpadding-wrapper {
   width: $desktop-leftpadding-width;
   padding-left: 225px;
   padding-right: 50px;
   margin: 0 auto;
 }
 
-@mixin desktop-full-wrapper{
+@mixin desktop-full-wrapper {
   width: $desktop-full-width;
   margin: 0 auto;
 }
 
-@mixin tablet-desktop-popup-wrapper{
+@mixin tablet-desktop-popup-wrapper {
   width: $tablet-desktop-popup-width;
   padding-left: 108px;
   padding-right: 108px;

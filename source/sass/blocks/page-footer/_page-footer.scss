@@ -7,11 +7,6 @@
   display: none;
 }
 
-.page-footer__wrapper {
-  @include mobile-wrapper;
-  background-color: $accent-color-third;
-}
-
 @media (min-width: $tablet-full-width) {
   .page-footer__wrapper {
     @include tablet-wrapper;
