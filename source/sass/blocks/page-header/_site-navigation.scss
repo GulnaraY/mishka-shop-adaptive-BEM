@@ -24,12 +24,12 @@
     flex-direction: row;
   }
 
-  .site-navigation__first-block {
+  .site-navigation__block--first {
     display: flex;
     flex-wrap: wrap;
   }
 
-  .site-navigation__second-block {
+  .site-navigation__block--second {
     display: flex;
   }
 }
