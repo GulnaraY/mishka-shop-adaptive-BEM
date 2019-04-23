@@ -58,11 +58,20 @@
 @media (min-width: $desktop-full-width) {
   .contacts__full-wrapper {
     @include desktop-full-wrapper;
-    position: relative;
+    display: flex;
+    flex-wrap: wrap;
   }
 
   .contacts__wrapper {
     @include desktop-leftpadding-wrapper;
+  }
+
+  .contacts__block--first{
+    flex-basis: 350px;
+  }
+
+  .contacts__block--third{
+    margin-top: -250px;
   }
 
   .contacts__list {
@@ -72,8 +81,5 @@
   .contacts__map {
     width: 525px;
     height: 457px;
-    position: absolute;
-    top: 0;
-    right: 50px;
   }
 }
