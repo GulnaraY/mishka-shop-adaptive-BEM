@@ -46,10 +46,21 @@
     position: relative;
   }
 
+  .top-product__content{
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .top-product__about{
+    flex-basis: 334px;
+  }
+
+  .top-product__pricing{
+    margin-top: -110px;
+  }
+
   .top-product__image {
-    position: absolute;
-    top: 30px;
-    right: 0;
+    flex-basis: 334px;
   }
 
   .top-product__label {
@@ -62,6 +73,14 @@
 @media (min-width: $desktop-full-width) {
   .top-product__wrapper {
     @include desktop-leftpadding-wrapper;
+  }
+
+  .top-product__about{
+    flex-basis: 350px;
+  }
+
+  .top-product__image{
+    flex-basis: 525px;
   }
 
   .top-product__label {
