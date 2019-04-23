@@ -35,9 +35,8 @@
 
   .features__list {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     flex-wrap: wrap;
-    height: 415px;
     align-content: center;
     align-items: center;
   }
@@ -48,6 +47,26 @@
 
   .features__text {
     width: 210px;
+  }
+
+  .features__item--second{
+    order:3;
+  }
+
+  .features__item--third{
+    order:5;
+  }
+
+  .features__item--fourth{
+    order: 2;
+  }
+
+  .features__item-fifth{
+    order: 4;
+  }
+
+  .features__item--sixth{
+    order: 6;
   }
 }
 
