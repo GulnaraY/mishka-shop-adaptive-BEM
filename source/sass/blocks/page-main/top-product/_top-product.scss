@@ -72,7 +72,9 @@
 
 @media (min-width: $desktop-full-width) {
   .top-product__wrapper {
-    @include desktop-leftpadding-wrapper;
+    @include desktop-wrapper;
+    width: 875px;
+    padding-left: 225px;
   }
 
   .top-product__about{

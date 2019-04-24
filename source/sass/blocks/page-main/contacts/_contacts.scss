@@ -63,14 +63,16 @@
   }
 
   .contacts__wrapper {
-    @include desktop-leftpadding-wrapper;
+    @include desktop-wrapper;
+    width: 875px;
+    padding-left: 225px;
   }
 
-  .contacts__block--first{
+  .contacts__block--first {
     flex-basis: 350px;
   }
 
-  .contacts__block--third{
+  .contacts__block--third {
     margin-top: -250px;
   }
 

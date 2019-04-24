@@ -29,13 +29,6 @@
   margin: 0 auto;
 }
 
-@mixin desktop-leftpadding-wrapper {
-  width: $desktop-leftpadding-width;
-  padding-left: 225px;
-  padding-right: 50px;
-  margin: 0 auto;
-}
-
 @mixin desktop-full-wrapper {
   width: $desktop-full-width;
   margin: 0 auto;

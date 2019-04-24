@@ -53,6 +53,8 @@
 
 @media (min-width: $desktop-full-width) {
   .reviews__wrapper {
-    @include desktop-leftpadding-wrapper;
+    @include desktop-wrapper;
+    width: 875px;
+    padding-left: 225px;
   }
 }
