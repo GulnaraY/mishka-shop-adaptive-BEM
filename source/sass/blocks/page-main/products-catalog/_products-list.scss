@@ -3,3 +3,10 @@
   padding: 0;
   list-style: $list-style;
 }
+
+@media (min-width: $desktop-full-width) {
+  .products-list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}

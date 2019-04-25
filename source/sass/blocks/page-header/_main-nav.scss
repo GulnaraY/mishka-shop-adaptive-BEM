@@ -3,3 +3,10 @@
   margin: 0;
   padding: 0;
 }
+
+@media (min-width: $tablet-full-width) {
+  .main-nav__list {
+    display: flex;
+    width: 334px;
+  }
+}

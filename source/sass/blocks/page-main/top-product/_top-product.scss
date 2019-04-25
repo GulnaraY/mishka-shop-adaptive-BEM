@@ -39,3 +39,54 @@
 .top-product__button {
   margin-bottom: 36px;
 }
+
+@media (min-width: $tablet-full-width) {
+  .top-product__wrapper {
+    @include tablet-wrapper;
+    position: relative;
+  }
+
+  .top-product__content {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .top-product__about {
+    flex-basis: 334px;
+  }
+
+  .top-product__pricing {
+    margin-top: -110px;
+  }
+
+  .top-product__image {
+    flex-basis: 334px;
+  }
+
+  .top-product__label {
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+}
+
+@media (min-width: $desktop-full-width) {
+  .top-product__wrapper {
+    @include desktop-wrapper;
+    width: 875px;
+    padding-left: 225px;
+  }
+
+  .top-product__about {
+    flex-basis: 350px;
+  }
+
+  .top-product__image {
+    flex-basis: 525px;
+  }
+
+  .top-product__label {
+    top: 0;
+    left: 50px;
+  }
+}

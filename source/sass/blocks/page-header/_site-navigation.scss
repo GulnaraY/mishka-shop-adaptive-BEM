@@ -2,11 +2,12 @@
   font-size: $font-size-m;
   font-weight: $font-weight-bold;
   line-height: $line-height-s;
+  display: flex;
+  flex-direction: column;
 }
 
 .site-navigation__item {
   color: $main-color;
-  border-bottom: 1px solid #ececec;
 }
 
 .site-navigation__link {
@@ -15,4 +16,26 @@
 
 .site-navigation__input {
   font: inherit;
+}
+
+
+@media (min-width: $tablet-full-width) {
+  .site-navigation {
+    flex-direction: row;
+  }
+
+  .site-navigation__block--first {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .site-navigation__block--second {
+    display: flex;
+  }
+}
+
+@media (min-width: $desktop-full-width) {
+  .site-navigation__logo {
+    order: 2;
+  }
 }

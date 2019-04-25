@@ -2,7 +2,23 @@
   @include mobile-wrapper;
 }
 
-.page-header__logo {
-  display: block;
-  border-bottom: 1px solid $border-color;
+.page-header__additional-block {
+  display: none;
+}
+
+@media (min-width: $tablet-full-width) {
+  .page-header__wrapper {
+    @include tablet-wrapper;
+  }
+}
+
+@media (min-width: $desktop-full-width) {
+  .page-header__wrapper {
+    @include desktop-wrapper;
+  }
+
+  .page-header__additional-block {
+    display: flex;
+    justify-content: space-between;
+  }
 }

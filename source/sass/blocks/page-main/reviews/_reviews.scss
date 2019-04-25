@@ -6,6 +6,7 @@
   margin: 0;
   padding: 0;
   color: $content-color;
+  border: none;
 }
 
 .reviews__text {
@@ -25,4 +26,35 @@
 
 .reviews__author-nickname {
   line-height: $line-height-s;
+}
+
+@media (min-width: $tablet-full-width) {
+  .reviews__wrapper {
+    @include tablet-wrapper;
+    position: relative;
+    background-image: url("../img/review@1x.jpg");
+    background-repeat: no-repeat;
+    background-position: 0 0;
+  }
+
+  .reviews__button {
+    position: absolute;
+    top: 0;
+    right: 50px;
+    width: 175px;
+  }
+
+  .reviews__pagination {
+    position: absolute;
+    right: 50px;
+    bottom: 0;
+  }
+}
+
+@media (min-width: $desktop-full-width) {
+  .reviews__wrapper {
+    @include desktop-wrapper;
+    width: 875px;
+    padding-left: 225px;
+  }
 }

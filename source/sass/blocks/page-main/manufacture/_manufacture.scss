@@ -1,5 +1,7 @@
 .manufacture__wrapper {
   @include mobile-wrapper;
+  display: flex;
+  flex-direction: column;
 }
 
 .manufacture__title {
@@ -22,4 +24,26 @@
   line-height: $line-height-s;
   margin: 0;
   padding: 0;
+}
+
+@media (min-width: $tablet-full-width) {
+  .manufacture__wrapper {
+    @include tablet-wrapper;
+  }
+
+  .manufacture__preview-image-wrapper {
+    order: -1;
+  }
+}
+
+@media (min-width: $desktop-full-width) {
+  .manufacture__wrapper {
+    @include desktop-wrapper;
+    height: 455px;
+    flex-wrap: wrap;
+  }
+
+  .manufacture__preview-image-wrapper {
+    flex-basis: 455px;
+  }
 }

@@ -1,0 +1,11 @@
+.additional-nav {
+  font-weight: $font-weight-bold;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.additional-nav__link {
+  color: $main-color;
+}

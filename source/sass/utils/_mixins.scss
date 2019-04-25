@@ -4,3 +4,39 @@
   padding-right: 30px;
   margin: 0 auto;
 }
+
+@mixin mobile-full-wrapper {
+  width: $mobile-full-width;
+  margin: 0 auto;
+}
+
+@mixin tablet-wrapper {
+  width: $tablet-width;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin: 0 auto;
+}
+
+@mixin tablet-full-wrapper {
+  width: $tablet-full-width;
+  margin: 0 auto;
+}
+
+@mixin desktop-wrapper {
+  width: $desktop-width;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin: 0 auto;
+}
+
+@mixin desktop-full-wrapper {
+  width: $desktop-full-width;
+  margin: 0 auto;
+}
+
+@mixin tablet-desktop-popup-wrapper {
+  width: $tablet-desktop-popup-width;
+  padding-left: 108px;
+  padding-right: 108px;
+  margin: 0 auto;
+}

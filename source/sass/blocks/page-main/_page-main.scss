@@ -7,3 +7,15 @@
   font-size: $font-size-xs;
   line-height: $line-height-s;
 }
+
+@media (min-width: $tablet-full-width) {
+  .page-main__wrapper {
+    @include tablet-wrapper;
+  }
+}
+
+@media (min-width: $desktop-full-width) {
+  .page-main__wrapper {
+    @include desktop-wrapper;
+  }
+}

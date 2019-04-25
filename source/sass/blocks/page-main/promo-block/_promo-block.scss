@@ -1,8 +1,5 @@
 .promo-block__wrapper {
-  @include mobile-wrapper;
-}
-
-.promo-block__intro {
+  @include mobile-full-wrapper;
   background-image: url("../img/hero-mobile@1x.jpg");
   background-repeat: no-repeat;
   background-position: 0 0;
@@ -14,4 +11,18 @@
   font-weight: $font-weight-bold;
   font-size: $font-size-xxl;
   line-height: $line-height-xm;
+}
+
+@media (min-width: $tablet-full-width) {
+  .promo-block__wrapper {
+    @include tablet-wrapper;
+    background-image: url("../img/hero-tablet@1x.jpg");
+  }
+}
+
+@media (min-width: $desktop-full-width) {
+  .promo-block__wrapper {
+    @include desktop-wrapper;
+    background-image: url("../img/hero-desktop@1x.jpg");
+  }
 }
