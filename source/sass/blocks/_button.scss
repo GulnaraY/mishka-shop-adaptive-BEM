@@ -4,11 +4,23 @@
   vertical-align: middle;
   width: 100%;
   box-sizing: border-box;
+  padding: 20px;
   text-transform: uppercase;
   background-color: $main-background;
   text-align: center;
   color: $content-color;
   font-size: $font-size-m;
   line-height: $line-height-xs;
+  font-weight: $font-weight-bold;
   cursor: pointer;
+}
+
+.button:hover,
+.button:focus {
+  background-color: $content-color;
+  color: $accent-text-color;
+}
+
+.button:active {
+  color: rgba(255, 255, 255, 0.3);
 }

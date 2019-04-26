@@ -5,3 +5,17 @@
   margin: 0;
   padding: 0;
 }
+
+@media (min-width: $tablet-full-width) {
+  .block__title {
+    font-size: $font-size-tablet-l;
+    line-height: $line-height-tablet-l;
+  }
+}
+
+@media (min-width: $desktop-full-width) {
+  .block__title {
+    font-size: $font-size-desktop-l;
+    line-height: $line-height-desktop-l;
+  }
+}
