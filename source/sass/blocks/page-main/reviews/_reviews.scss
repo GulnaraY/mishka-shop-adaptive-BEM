@@ -1,17 +1,25 @@
 .reviews__wrapper {
   @include mobile-wrapper;
+  display: flex;
+  flex-direction: column;
 }
 
 .reviews__item {
   margin: 0;
+  margin-bottom: 36px;
   padding: 0;
   color: $content-color;
   border: none;
 }
 
+.reviews__title {
+  margin-bottom: 38px;
+}
+
 .reviews__text {
   margin: 0;
   padding: 0;
+  margin-bottom: 40px;
 }
 
 .reviews__author {
@@ -26,6 +34,44 @@
 
 .reviews__author-nickname {
   line-height: $line-height-s;
+  display: block;
+}
+
+.reviews__pagination {
+  margin-bottom: 38px;
+  width: 100%;
+  display: flex;
+}
+
+.reviews__pagination-button {
+  width: 50%;
+  background-color: transparent;
+  border: 1px solid $border-color;
+  min-height: 52px;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+
+.reviews__prev-button {
+  background-image: url("../img/icon-left-arrow.svg");
+  border-right: none;
+}
+
+.reviews__next-button {
+  background-image: url("../img/icon-right-arrow.svg");
+}
+
+.reviews__pagination-button:hover,
+.reviews__pagination-button:focus {
+  opacity: 0.6;
+}
+
+.reviews__pagination-button:active {
+  opacity: 0.3;
+}
+
+.reviews__button {
+  margin-bottom: 45px;
 }
 
 @media (min-width: $tablet-full-width) {
@@ -35,11 +81,16 @@
     background-image: url("../img/review@1x.jpg");
     background-repeat: no-repeat;
     background-position: 0 0;
+    margin-bottom: 69px;
+  }
+
+  .reviews__title {
+    margin-top: 86px;
   }
 
   .reviews__button {
     position: absolute;
-    top: 0;
+    top: 80px;
     right: 50px;
     width: 175px;
   }
@@ -48,6 +99,24 @@
     position: absolute;
     right: 50px;
     bottom: 0;
+    width: 137px;
+    min-height: 26px;
+    justify-content: space-between;
+  }
+
+  .reviews__pagination-button {
+    width: 50px;
+    border: none;
+  }
+
+
+
+  .reviews__text {
+    font-size: $font-size-m;
+  }
+
+  .reviews__author {
+    font-size: $font-size-xm;
   }
 }
 
@@ -56,5 +125,10 @@
     @include desktop-wrapper;
     width: 875px;
     padding-left: 225px;
+    margin-bottom: 69px;
+  }
+
+  .reviews__author {
+    font-size: $font-size-m;
   }
 }
