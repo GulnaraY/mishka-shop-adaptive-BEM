@@ -54,18 +54,25 @@
   line-height: $line-height-xxs;
   width: 77px;
   padding: 20px 10px;
-  border: 1px solid $border-color;
+  border: 1px solid $content-color-opacity-first;
+  cursor: pointer;
 }
 
 .to-cart__button {
-  color: $accent-text-color;
-  background-color: $accent-color-main;
   border: none;
   margin-top: 31px;
 }
 
 .to-cart__size:checked+.to-cart__label {
   border: 1px solid $accent-color-main;
+}
+
+.to-cart__size:hover+.to-cart__label {
+  border-color: $content-color-opacity-second;
+}
+
+.to-cart__size:focus+.to-cart__label {
+  border-color: $accent-color-main;
 }
 
 @media (min-width: $tablet-full-width) {

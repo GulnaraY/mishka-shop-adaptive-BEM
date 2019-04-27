@@ -162,17 +162,25 @@
     </div>
   </footer>
   <section class="modal to-cart">
-    <div class="modal__wrapper">
+    <div class="modal__wrapper to-cart__wrapper">
       <h2 class="to-cart__title">Добавить в корзину</h2>
       <span class="to-cart__invite">Выберите размер:</span>
       <form action="https://echo.htmlacademy.ru" class="to-cart__form">
-        <input class="to-cart__size" type="radio" name="size" value="s" id="size-s" checked>
-        <label class="to-cart__label" for="size-s">S</label>
-        <input class="to-cart__size" type="radio" name="size" value="m" id="size-m">
-        <label class="to-cart__label" for="size-m">M</label>
-        <input class="to-cart__size" type="radio" name="size" value="l" id="size-l">
-        <label class="to-cart__label" for="size-l">L</label>
-        <button class="button to-cart__button" type="submit">Добавить</button>
+        <div class="to-cart__size-block">
+          <p class="to-cart__element">
+            <input class="visually-hidden to-cart__size" type="radio" name="size" value="s" id="size-s" checked>
+            <label class="to-cart__label" for="size-s">S</label>
+          </p>
+          <p class="to-cart__element">
+            <input class="visually-hidden to-cart__size" type="radio" name="size" value="m" id="size-m">
+            <label class="to-cart__label" for="size-m">M</label>
+          </p>
+          <p class="to-cart__element">
+            <input class="visually-hidden to-cart__size" type="radio" name="size" value="l" id="size-l">
+            <label class="to-cart__label" for="size-l">L</label>
+          </p>
+        </div>
+        <button class="button button--alternative to-cart__button" type="submit">Добавить</button>
       </form>
     </div>
   </section>

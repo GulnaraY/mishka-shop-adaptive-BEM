@@ -24,3 +24,17 @@
 .button:active {
   color: rgba(255, 255, 255, 0.3);
 }
+
+.button--alternative {
+  background-color: $accent-color-main;
+  color: $accent-text-color;
+}
+
+.button--alternative:hover,
+.button--alternative:focus {
+  background-color: $hover-color-first;
+}
+
+.button--alternative:active {
+  color: $active-button-text-color;
+}
