@@ -1,0 +1,29 @@
+.copyright {
+  display: flex;
+  justify-content: space-around;
+}
+.copyright__text {
+  font-weight: $font-weight-bold;
+  font-size: $font-size-l;
+  line-height: $line-height-sx;
+}
+
+.copyright__link {
+  width: 27px;
+  height: 34px;
+}
+
+.copyright__link:hover path,
+.copyright__link:focus path {
+  fill: $hover-color-second;
+}
+
+.copyright__link:active{
+  opacity: 0.3;
+}
+
+@media (min-width: $tablet-full-width) {
+  .copyright {
+    justify-content: space-between;
+  }
+}
