@@ -4,9 +4,19 @@
   list-style: $list-style;
 }
 
+.products-list__item {
+  margin-bottom: 30px;
+}
+
 @media (min-width: $desktop-full-width) {
   .products-list {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .products-list__item {
+    width: 316px;
+    margin-bottom: 53px;
   }
 }
