@@ -16,6 +16,11 @@
   box-shadow: 0px 3px 5px 0 $box-shadow-second-color;
 }
 
+.catalog-card__image {
+  width: 260px;
+  height: 195px;
+}
+
 .catalog-card__actions {
   border: $catalog-page-border;
   box-sizing: border-box;
@@ -122,6 +127,8 @@
 
   .catalog-card__image {
     margin-bottom: 0;
+    width: 334px;
+    height: 334px;
   }
 }
 
