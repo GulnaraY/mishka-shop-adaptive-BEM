@@ -1,0 +1,36 @@
+.input-block__label {
+  display: block;
+}
+
+.input-block__input {
+  width: 100%;
+  box-sizing: border-box;
+  color: $content-color;
+  padding-top: 17px;
+  padding-right: 17px;
+  padding-bottom: 17px;
+  border: none;
+  border-bottom: 1px solid $main-color;
+}
+
+.input-block__input:hover {
+  border-bottom-color: $accent-color-fourth;
+}
+
+.input-block__input:focus {
+  border-bottom-color: $accent-color-fourth;
+  outline: none;
+}
+
+.input-block__input::-webkit-input-placeholder {
+  color: $content-color-opacity-second;
+}
+.input-block__input::-moz-placeholder {
+  color: $content-color-opacity-second;
+}
+.input-block__input:-moz-placeholder {
+  color: $content-color-opacity-second;
+}
+.input-block__input:-ms-input-placeholder{
+  color: $content-color-opacity-second;
+}
