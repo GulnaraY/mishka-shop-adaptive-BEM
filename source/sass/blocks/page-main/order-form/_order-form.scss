@@ -4,14 +4,29 @@
   padding: 0;
   font-size: $font-size-m;
   line-height: $line-height-sx;
+  margin-bottom: 30px;
 }
 
 .order-form__title {
+  display: block;
+  width: 100%;
   color: $accent-color-main;
   font-size: $font-size-m;
   line-height: $line-height-xxs;
   font-weight: $font-weight-bold;
-  border: none;
+  text-transform: uppercase;
+  position: relative;
+  margin-bottom: 27px;
+}
+
+.order-form__title::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: 0;
+  width: 198px;
+  height: 1px;
+  background-color: $accent-color-main;
 }
 
 .order-form__note {
@@ -23,6 +38,11 @@
 .order-form__element {
   margin: 0;
   padding: 0;
+  margin-bottom: 22px;
+}
+
+.order-form__element:last-child {
+  margin-bottom: 0;
 }
 
 @media (min-width: $tablet-full-width) {

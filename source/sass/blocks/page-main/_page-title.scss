@@ -1,4 +1,8 @@
 .page-title {
+  @include mobile-full-wrapper;
+}
+
+.page-title__text {
   margin: 0;
   padding: 0;
   padding-left: 30px;
@@ -13,20 +17,31 @@
 }
 
 @media (min-width: $tablet-full-width) {
-  .page-title {
+  .page-title__text {
     font-size: $font-size-tablet-l;
     line-height: $line-height-tablet-l;
     padding-top: 106px;
     padding-bottom: 66px;
   }
-
 }
 
 @media (min-width: $desktop-full-width) {
-  .page-title {
+  .page-title__text {
     font-size: $font-size-desktop-l;
     line-height: $line-height-desktop-l;
     padding-top: 105px;
     padding-bottom: 82px;
+  }
+}
+
+@media (min-width: $tablet-full-width ) {
+  .page-title {
+    @include tablet-full-wrapper;
+  }
+}
+
+@media (min-width: $desktop-full-width) {
+  .page-title {
+    @include desktop-full-wrapper;
   }
 }

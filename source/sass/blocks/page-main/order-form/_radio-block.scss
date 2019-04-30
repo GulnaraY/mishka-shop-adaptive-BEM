@@ -1,0 +1,27 @@
+.radio-block__label {
+  position: relative;
+  padding-left: 62px;
+  display: block;
+}
+
+.radio-block__input + .radio-block__label::before {
+  content: "";
+  position: absolute;
+  top: -9px;
+  left: 0;
+  width: 40px;
+  height: 40px;
+  border: 1px solid $content-color;
+  border-radius: 50%;
+}
+
+.radio-block__input:checked + .radio-block__label::after {
+  content: "";
+  top: 4.5px;
+  left: 13px;
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background-color: $accent-color-fourth;
+}
