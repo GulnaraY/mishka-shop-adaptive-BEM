@@ -25,3 +25,11 @@
   border-radius: 50%;
   background-color: $accent-color-fourth;
 }
+
+.radio-block__label:hover::before {
+  border-color: $accent-color-fourth;
+}
+
+.radio-block__input:focus + .radio-block__label::before {
+  border-color: $content-color-opacity-second;
+}
