@@ -1,0 +1,30 @@
+.textarea-block__input {
+  width: 100%;
+  box-sizing: border-box;
+  min-height: 142px;
+  border: 1px solid $content-color;
+  padding: 17px;
+  color: $content-color;
+}
+
+.textarea-block__input:hover {
+  border-color: $accent-color-fourth;
+}
+
+.textarea-block__input:focus {
+  border-color: $accent-color-fourth;
+  outline: none;
+}
+
+.textarea-block__input::-webkit-input-placeholder {
+  color: $content-color-opacity-second;
+}
+.textarea-block__input::-moz-placeholder {
+  color: $content-color-opacity-second;
+}
+.textarea-block__input:-moz-placeholder {
+  color: $content-color-opacity-second;
+}
+.textarea-block__input:-ms-input-placeholder{
+  color: $content-color-opacity-second;
+}
