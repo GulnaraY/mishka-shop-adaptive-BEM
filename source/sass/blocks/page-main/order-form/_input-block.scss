@@ -2,12 +2,8 @@
   position: relative;
 }
 
-.input-block__label {
-  display: block;
-}
-
 .input-block__input {
-  width: 100%;
+  background-color: transparent;
   box-sizing: border-box;
   color: $content-color;
   padding-top: 17px;
@@ -55,3 +51,8 @@
   fill: $accent-color-fourth;
 }
 
+@media (min-width: $tablet-full-width) {
+  .input-block__label {
+    margin-right: 25px;
+  }
+}

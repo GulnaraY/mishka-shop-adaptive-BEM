@@ -1,5 +1,4 @@
 .textarea-block__input {
-  width: 100%;
   box-sizing: border-box;
   min-height: 142px;
   border: 1px solid $content-color;
@@ -28,3 +27,4 @@
 .textarea-block__input:-ms-input-placeholder{
   color: $content-color-opacity-second;
 }
+
