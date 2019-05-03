@@ -4,6 +4,15 @@
   padding: 0;
 }
 
+a[href].main-nav__link:hover,
+a[href].main-nav__link:focus {
+  opacity: 0.6;
+}
+
+a[href].main-nav__link:active {
+  opacity: 0.3;
+}
+
 @media (min-width: $tablet-full-width) {
   .main-nav__list {
     display: flex;
