@@ -32,3 +32,17 @@
 .cart:active .cart__icon {
   opacity: 0.3;
 }
+
+@media (min-width: $tablet-full-width) {
+  .cart {
+    width: 316px;
+    display: flex;
+    align-items: center;
+  }
+}
+
+@media (min-width: $desktop-full-width) {
+  .cart {
+    width: 264px;
+  }
+}

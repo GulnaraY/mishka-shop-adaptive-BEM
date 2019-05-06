@@ -27,6 +27,7 @@
 @media (min-width: $tablet-full-width) {
   .promo-block__wrapper {
     @include tablet-full-wrapper;
+    border-top: 1px solid $border-color-second;
   }
 
   .promo-block__title {
@@ -40,7 +41,7 @@
 
 @media (min-width: $desktop-full-width) {
   .promo-block__wrapper {
-    @include desktop-wrapper;
+    @include desktop-full-wrapper;
   }
 
   .promo-block__title {

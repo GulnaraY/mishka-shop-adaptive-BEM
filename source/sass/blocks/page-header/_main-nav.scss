@@ -19,3 +19,14 @@ a[href].main-nav__link:active {
     width: 334px;
   }
 }
+
+@media (min-width: $desktop-full-width) {
+  .main-nav__list {
+    width: 450px;
+  }
+
+  .main-nav__item {
+    width: 175px;
+    margin-right: 46px;
+  }
+}

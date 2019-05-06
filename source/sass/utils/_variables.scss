@@ -8,6 +8,7 @@ $accent-color-second: #56c3b2;
 $accent-color-third: #f1f1f1;
 $accent-color-fourth: #62d1ba;
 $border-color: #ececec;
+$border-color-second: rgba(0, 0, 0, 0.1);
 $alternative-border-color: #c6c6c6;
 $content-color: #444444;
 $content-color-opacity-first: rgba(68, 68, 68, 0.1);
@@ -52,6 +53,7 @@ $list-style: none;
 
 $mobile-width: 260px;
 $mobile-full-width: 320px;
+$mobile-width-only: 767px;
 $tablet-width: 668px;
 $tablet-full-width: 768px;
 $desktop-width: 1050px;
