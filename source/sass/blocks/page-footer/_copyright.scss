@@ -1,6 +1,7 @@
 .copyright {
   display: flex;
   justify-content: space-around;
+  align-items: center;
 }
 .copyright__text {
   font-weight: $font-weight-bold;
@@ -9,8 +10,8 @@
 }
 
 .copyright__link {
-  width: 27px;
-  height: 34px;
+  width: 43px;
+  height: 54px;
 }
 
 .copyright__link:hover path,
