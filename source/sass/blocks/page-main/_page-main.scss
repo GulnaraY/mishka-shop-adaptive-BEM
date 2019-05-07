@@ -3,6 +3,10 @@
 }
 
 .page-main__intro {
+  margin: 0;
+  margin-top: 29px;
+  margin-bottom: 30px;
+  padding: 0;
   color: $content-color;
   font-size: $font-size-xs;
   line-height: $line-height-s;
@@ -10,12 +14,25 @@
 
 @media (min-width: $tablet-full-width) {
   .page-main__wrapper {
-    @include tablet-wrapper;
+    @include tablet-full-wrapper;
+  }
+
+  .page-main__intro {
+    margin-left: 50px;
+    margin-right: 50px;
+    width: 612px;
+    font-size: $font-size-m;
+    line-height: $line-height-m;
   }
 }
 
 @media (min-width: $desktop-full-width) {
   .page-main__wrapper {
     @include desktop-wrapper;
+  }
+
+  .page-main__intro {
+    margin-left: 225px;
+    width: 672px;
   }
 }

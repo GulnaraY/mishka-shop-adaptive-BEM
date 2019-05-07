@@ -1,14 +1,33 @@
 .page-header__wrapper {
-  @include mobile-wrapper;
+  @include mobile-full-wrapper;
 }
 
-.page-header__additional-block {
+.page-header__additional-nav {
+  display: none;
+}
+
+.page-header__delivery-info {
+  margin: 0;
+  padding: 0;
   display: none;
 }
 
 @media (min-width: $tablet-full-width) {
   .page-header__wrapper {
     @include tablet-wrapper;
+  }
+
+  .page-header__additional-block {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .page-header__delivery-info {
+    display: block;
+    width: 231px;
+    margin-bottom: -50px;
+    padding-top: 20px;
+    z-index: 3;
   }
 }
 
@@ -18,7 +37,10 @@
   }
 
   .page-header__additional-block {
-    display: flex;
     justify-content: space-between;
+  }
+
+  .page-header__additional-nav {
+    display: flex;
   }
 }

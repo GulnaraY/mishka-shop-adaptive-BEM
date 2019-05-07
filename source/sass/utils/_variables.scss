@@ -2,10 +2,23 @@ $main-background: #ffffff;
 $main-color: #000000;
 $accent-text-color: #ffffff;
 $accent-color-main: #63d1bb;
+$hover-color-first: #59d5bc;
+$hover-color-second: #46c1ae;
 $accent-color-second: #56c3b2;
 $accent-color-third: #f1f1f1;
+$accent-color-fourth: #62d1ba;
 $border-color: #ececec;
+$border-color-second: rgba(0, 0, 0, 0.1);
+$alternative-border-color: #c6c6c6;
 $content-color: #444444;
+$content-color-opacity-first: rgba(68, 68, 68, 0.1);
+$content-color-opacity-second: rgba(68, 68, 68, 0.3);
+$box-shadow-color: rgba(0, 1, 1, 0.25);
+$box-shadow-second-color: rgba(0, 1, 1, 0.1);
+$active-button-text-color: rgba(255, 255, 255, 0.3);
+$image-background-color: #d9e5e9;
+$image-background-color-second:#e5e5e5;
+$overlay-color: rgba(255, 255, 255, 0.9);
 
 $font: "Open Sans", arial, sans-serif;
 
@@ -15,24 +28,33 @@ $font-size-s: 15px;
 $font-size-m: 17px;
 $font-size-xm: 18px;
 $font-size-l: 19px;
-$font-size-xl: 25px;
+$font-size-xl: 24px;
 $font-size-xxl: 26.5px;
 $font-size-xxxl: 27px;
+$font-size-tablet-s: 20px;
+$font-size-tablet-m: 30px;
+$font-size-tablet-l: 43px;
+$font-size-desktop-l: 53px;
 
 $line-height-s: 24px;
 $line-height-xxs: 16px;
+$line-height-tablet-s: 17px;
 $line-height-sx: 18px;
 $line-height-xs: 20px;
 $line-height-xm: 29.5px;
 $line-height-m: 30px;
+$line-height-tablet-m: 22px;
+$line-height-tablet-l: 50px;
+$line-height-desktop-l: 57px;
 
 $font-weight-normal: 400;
 $font-weight-bold: 700;
 
 $list-style: none;
 
-$mobile-width: 240px;
+$mobile-width: 260px;
 $mobile-full-width: 320px;
+$mobile-width-only: 767px;
 $tablet-width: 668px;
 $tablet-full-width: 768px;
 $desktop-width: 1050px;
@@ -41,3 +63,6 @@ $desktop-leftpadding-width: 875px;
 $tablet-desktop-popup-width: 350px;
 
 $catalog-page-border: 1px solid $border-color;
+
+$retina-dpi: 144dpi;
+$retina-dppx: 1.5dppx;

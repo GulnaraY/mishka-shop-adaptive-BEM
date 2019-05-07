@@ -1,5 +1,6 @@
 .products-catalog__wrapper {
   @include mobile-wrapper;
+  padding-top: 30px;
 }
 
 @media (min-width: $tablet-full-width) {
