@@ -60,6 +60,7 @@
 @media (min-width: $tablet-full-width) {
   .features__wrapper {
     @include tablet-wrapper;
+    margin-top: 40px;
   }
 
   .features__list {
@@ -107,6 +108,7 @@
     width: 700px;
     padding-left: 225px;
     padding-right: 225px;
+    margin-top: 40px;
   }
 
   .features__item {
