@@ -81,7 +81,7 @@
   }
 
   .top-product__pricing {
-    margin-top: -143px;
+    margin-top: -150px;
     width: 292px;
     display: flex;
     flex-direction: column;
@@ -127,6 +127,7 @@
   }
 
   .top-product__image {
+    position: relative;
     width: 525px;
     height: 636px;
     margin-top: -117px;
