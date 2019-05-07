@@ -11,7 +11,7 @@
 .modal__wrapper {
   @include mobile-wrapper;
   border: 1px solid $alternative-border-color;
-  box-shadow: 0px 5px 10px 0 $box-shadow-color;
+  box-shadow: 0 5px 10px 0 $box-shadow-color;
 }
 
 @media (min-width: $tablet-full-width) {

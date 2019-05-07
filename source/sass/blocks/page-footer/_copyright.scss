@@ -3,6 +3,7 @@
   justify-content: space-around;
   align-items: center;
 }
+
 .copyright__text {
   font-weight: $font-weight-bold;
   font-size: $font-size-l;
@@ -19,7 +20,7 @@
   fill: $hover-color-second;
 }
 
-.copyright__link:active{
+.copyright__link:active {
   opacity: 0.3;
 }
 

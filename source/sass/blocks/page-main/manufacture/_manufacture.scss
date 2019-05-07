@@ -62,7 +62,7 @@
   border: none;
   background-color: $accent-color-main;
   border-radius: 14px / 19px;
-  background-image: url(../img/icon-play.svg);
+  background-image: url("../img/icon-play.svg");
   background-repeat: no-repeat;
   background-position: center center;
 }
@@ -79,11 +79,11 @@
 
 .manufacture__video-button:hover + .manufacture__right-column,
 .manufacture__video-button:focus + .manufacture__right-column {
-  box-shadow: 0px 6px 10px 0 $box-shadow-second-color;
+  box-shadow: 0 6px 10px 0 $box-shadow-second-color;
 }
 
 .manufacture__video-button:active + .manufacture__right-column {
-  box-shadow: 0px 3px 5px 0 $box-shadow-second-color;
+  box-shadow: 0 3px 5px 0 $box-shadow-second-color;
 }
 
 .manufacture__order-button {

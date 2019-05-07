@@ -9,11 +9,11 @@
 }
 
 .options-table__item {
- border-bottom: 1px solid $border-color;
- box-sizing: border-box;
- padding-top: 10px;
- padding-bottom: 10px;
- padding-right: 10px;
+  border-bottom: 1px solid $border-color;
+  box-sizing: border-box;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 10px;
 }
 
 .options-table__feature {
@@ -25,7 +25,7 @@
 }
 
 @media (min-width: $tablet-full-width) {
-  .options-table__value{
+  .options-table__value {
     width: 185px;
   }
 }

@@ -10,7 +10,6 @@
 
 .order-form__title {
   margin: 0;
-  display: 0;
   display: block;
   width: 100%;
   color: $accent-color-main;
@@ -110,10 +109,6 @@
 
   .order-form__additional {
     width: 501px;
-  }
-
-  .order-form__text {
-    width: 100%;
   }
 
   .order-form__right-block--column {

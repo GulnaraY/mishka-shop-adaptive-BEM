@@ -34,7 +34,7 @@
   }
 }
 
-@media (min-width: $tablet-full-width ) {
+@media (min-width: $tablet-full-width) {
   .page-title {
     @include tablet-full-wrapper;
   }

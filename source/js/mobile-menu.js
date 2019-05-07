@@ -13,4 +13,3 @@ navToggle.addEventListener('click', function(evt) {
     siteNavigation.classList.remove('site-navigation--opened');
   }
 });
-

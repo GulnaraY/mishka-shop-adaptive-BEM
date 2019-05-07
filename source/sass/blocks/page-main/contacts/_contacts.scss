@@ -88,17 +88,15 @@
 @media (min-width: $tablet-full-width) {
   .contacts__wrapper {
     @include tablet-wrapper;
-
   }
 
   .contacts__full-wrapper {
     @include tablet-full-wrapper;
-    background-image:url(../img/bg-zigzag-line.svg) ,
-                     url("../img/icon-flag.svg");
+    background-image: url("../img/bg-zigzag-line.svg"),
+      url("../img/icon-flag.svg");
     background-repeat: no-repeat;
     background-position: 0 0, 100% 70px;
     padding-top: 70px;
-
   }
 
   .contacts__list {
