@@ -96,6 +96,8 @@
 @media (min-width: $tablet-full-width) {
   .categories-list {
     flex-direction: row;
+    width: 668px;
+    margin: 0 auto;
   }
 
   .categories-list__item {
@@ -114,11 +116,11 @@
   }
 
   .categories-list__link--first {
-    background-position: -22px 100%;
+    background-position: -11px 100%;
   }
 
   .categories-list__link--second {
-    background-position: -41px 100%;
+    background-position: -20px 100%;
   }
 
   .categories-list__link:hover,
@@ -128,6 +130,10 @@
 }
 
 @media (min-width: $desktop-full-width) {
+  .categories-list {
+    width: 1050px;
+  }
+
   .categories-list__link {
     background-size: auto 34px;
   }
