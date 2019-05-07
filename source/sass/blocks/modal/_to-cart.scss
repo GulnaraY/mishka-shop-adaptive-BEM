@@ -75,6 +75,10 @@
   border-color: $accent-color-main;
 }
 
+.to-cart--opened {
+  display: block;
+}
+
 @media (min-width: $tablet-full-width) {
   .to-cart__title {
     width: 100%;

@@ -55,13 +55,17 @@
 @media (min-width: $tablet-full-width) {
   .contacts__wrapper {
     @include tablet-wrapper;
+
   }
 
   .contacts__full-wrapper {
     @include tablet-full-wrapper;
-    background-image: url("../img/icon-flag.svg");
+    background-image:url(../img/bg-zigzag-line.svg) ,
+                     url("../img/icon-flag.svg");
     background-repeat: no-repeat;
-    background-position: 100% 0;
+    background-position: 0 0, 100% 70px;
+    padding-top: 70px;
+
   }
 
   .contacts__list {
@@ -96,9 +100,11 @@
 @media (min-width: $desktop-full-width) {
   .contacts__full-wrapper {
     @include desktop-full-wrapper;
+    padding-right: 50px;
     display: flex;
     flex-wrap: wrap;
-    background-position: 63px 0;
+    background-position: 50px 0, 63px 70px;
+    background-size: 1050px, 47px;
   }
 
   .contacts__wrapper {

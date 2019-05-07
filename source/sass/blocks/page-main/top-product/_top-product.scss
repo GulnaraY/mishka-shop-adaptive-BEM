@@ -57,6 +57,10 @@
   .top-product__wrapper {
     @include tablet-wrapper;
     position: relative;
+    background-image: url("../img/bg-zigzag-line.svg");
+    background-repeat: no-repeat;
+    background-position: 0 100%;
+    padding-bottom: 53px;
   }
 
   .top-product__content {
@@ -114,6 +118,8 @@
     @include desktop-wrapper;
     width: 875px;
     padding-left: 225px;
+    background-position: 50px 100%;
+    background-size: 1050px;
   }
 
   .top-product__about {
