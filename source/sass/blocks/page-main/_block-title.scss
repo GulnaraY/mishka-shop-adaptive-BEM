@@ -1,4 +1,4 @@
-.block__title {
+.block-title {
   font-weight: $font-weight-bold;
   font-size: $font-size-xl;
   line-height: $line-height-m;
@@ -7,14 +7,14 @@
 }
 
 @media (min-width: $tablet-full-width) {
-  .block__title {
+  .block-title {
     font-size: $font-size-tablet-l;
     line-height: $line-height-tablet-l;
   }
 }
 
 @media (min-width: $desktop-full-width) {
-  .block__title {
+  .block-title {
     font-size: $font-size-desktop-l;
     line-height: $line-height-desktop-l;
   }
