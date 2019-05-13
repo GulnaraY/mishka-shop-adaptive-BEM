@@ -60,8 +60,7 @@
   width: 98px;
   height: 74px;
   border: none;
-  background-color: $accent-color-main;
-  border-radius: 14px / 19px;
+  background-color: transparent;
   background-image: url("../img/icon-play.svg");
   background-repeat: no-repeat;
   background-position: center center;
@@ -77,12 +76,11 @@
   opacity: 0.3;
 }
 
-.manufacture__video-button:hover + .manufacture__right-column,
-.manufacture__video-button:focus + .manufacture__right-column {
+.manufacture__wrapper:hover .manufacture__right-column {
   box-shadow: 0 6px 10px 0 $box-shadow-second-color;
 }
 
-.manufacture__video-button:active + .manufacture__right-column {
+.manufacture__wrapper:active .manufacture__right-column {
   box-shadow: 0 3px 5px 0 $box-shadow-second-color;
 }
 
