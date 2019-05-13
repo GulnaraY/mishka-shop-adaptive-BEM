@@ -1,15 +1,18 @@
-var orderButton = document.querySelector('.order-button');
+var orderButtons = document.querySelectorAll('.order-button');
 var cartPopup = document.querySelector('.to-cart');
 var closePopup = document.querySelector('.to-cart__button');
 var overlay = document.querySelector(".modal-overlay");
 
-orderButton.addEventListener('click', function(evt){
+for (var j=0; j<=orderButtons.length-1; j++) {
+  orderButtons[j].addEventListener('click', function(evt){
   evt.preventDefault();
   if (!cartPopup.classList.contains('to-cart--opened')){
     cartPopup.classList.add('to-cart--opened');
     overlay.classList.add('modal-overlay--opened');
   }
 });
+}
+
 
 closePopup.addEventListener('click', function(evt){
   evt.preventDefault();
