@@ -61,6 +61,7 @@
   padding: 0;
   margin-bottom: 39px;
   position: relative;
+  min-height: 457px;
 }
 
 .contacts__map::before {
@@ -73,6 +74,13 @@
   background-image: url("../img/icon-map-pin.svg");
   background-position: 0 0;
   background-repeat: no-repeat;
+}
+
+.contacts__map-picture {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
 }
 
 .contacts__map-image {
