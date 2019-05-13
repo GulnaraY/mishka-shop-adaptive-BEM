@@ -4,6 +4,10 @@
   padding: 0;
 }
 
+.main-nav__item {
+  word-wrap: break-word;
+}
+
 a[href].main-nav__link:hover,
 a[href].main-nav__link:focus {
   opacity: 0.6;
@@ -16,7 +20,13 @@ a[href].main-nav__link:active {
 @media (min-width: $tablet-full-width) {
   .main-nav__list {
     display: flex;
+    flex-wrap: wrap;
     width: 334px;
+  }
+
+  .main-nav__item {
+    width: 157px;
+    margin-right: 10px;
   }
 }
 

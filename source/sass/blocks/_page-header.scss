@@ -42,5 +42,7 @@
 
   .page-header__additional-nav {
     display: flex;
+    flex-wrap: wrap;
+    width: 700px;
   }
 }
