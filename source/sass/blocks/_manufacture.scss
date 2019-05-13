@@ -54,9 +54,9 @@
 
 .manufacture__video-button {
   position: absolute;
-  top: 133px;
+  top: 50%;
   left: 50%;
-  margin-left: -49px;
+  transform: translateY(-50%) translateX(-50%);
   width: 98px;
   height: 74px;
   border: none;
@@ -68,12 +68,12 @@
 
 .manufacture__video-button:hover,
 .manufacture__video-button:focus {
-  transform: scale(1.2);
+  transform: translateY(-50%) translateX(-50%) scale(1.2);
   outline: none;
 }
 
 .manufacture__video-button:active {
-  transform: scale(0.66);
+  transform: translateY(-50%) translateX(-50%) scale(0.66);
   opacity: 0.3;
 }
 
@@ -123,10 +123,6 @@
     padding-left: 40px;
     padding-right: 40px;
   }
-
-  .manufacture__video-button {
-    top: 190px;
-  }
 }
 
 @media (min-width: $desktop-full-width) {
@@ -137,6 +133,9 @@
 
   .manufacture__preview-image-wrapper {
     display: flex;
+    align-items: center;
+    border: 1px solid $border-color;
+    border-right: none;
   }
 
   .manufacture__video-preview {
@@ -170,9 +169,5 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-  }
-
-  .manufacture__video-button {
-    left: 33%;
   }
 }
