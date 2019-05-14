@@ -78,10 +78,21 @@
   .reviews__wrapper {
     @include tablet-wrapper;
     position: relative;
+    margin-bottom: 69px;
+  }
+
+  .reviews__wrapper::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 350px;
+    height: 457px;
+    background-color: $image-background-color;
     background-image: url("../img/review@1x.jpg");
     background-repeat: no-repeat;
     background-position: 0 0;
-    margin-bottom: 69px;
+    z-index: -1;
 
     @media (min-resolution: $retina-dpi), (min-resolution: $retina-dppx) {
       background-image: url("../img/review@2x.jpg");
@@ -129,6 +140,10 @@
     width: 875px;
     padding-left: 225px;
     margin-bottom: 69px;
+  }
+
+  .reviews__wrapper::before {
+    left: 50px;
   }
 
   .reviews__author {
