@@ -2,6 +2,7 @@ var orderButtons = document.querySelectorAll('.order-button');
 var cartPopup = document.querySelector('.to-cart');
 var closePopup = document.querySelector('.to-cart__button');
 var overlay = document.querySelector(".modal-overlay");
+var sizeLabel = document.querySelector("[id=size-s]");
 
 for (var j=0; j<=orderButtons.length-1; j++) {
   orderButtons[j].addEventListener('click', function(evt){
@@ -9,10 +10,10 @@ for (var j=0; j<=orderButtons.length-1; j++) {
   if (!cartPopup.classList.contains('to-cart--opened')){
     cartPopup.classList.add('to-cart--opened');
     overlay.classList.add('modal-overlay--opened');
+    sizeLabel.focus();
   }
 });
 }
-
 
 closePopup.addEventListener('click', function(evt){
   evt.preventDefault();
