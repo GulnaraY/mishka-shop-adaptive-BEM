@@ -25,6 +25,7 @@ for (var j=0; j<=sizeField.length-1; j++) {
 
 form.addEventListener('submit', function(evt){
   if (cartPopup.classList.contains('to-cart--opened')){
+    evt.preventDefault();
     cartPopup.classList.remove('to-cart--opened');
     overlay.classList.remove('modal-overlay--opened');
   }
