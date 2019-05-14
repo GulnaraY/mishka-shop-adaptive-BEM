@@ -7,7 +7,8 @@
 .radio-block__input + .radio-block__label::before {
   content: "";
   position: absolute;
-  top: -14px;
+  top: 50%;
+  transform: translateY(-50%);
   left: 0;
   width: 40px;
   height: 40px;
@@ -17,8 +18,9 @@
 
 .radio-block__input:checked + .radio-block__label::after {
   content: "";
-  top: -0.5px;
+  top: 50%;
   left: 13px;
+  transform: translateY(-50%);
   position: absolute;
   width: 16px;
   height: 16px;
@@ -47,7 +49,6 @@
   .radio-block__input:checked + .radio-block__label::after {
     width: 22px;
     height: 22px;
-    top: 2.5px;
     left: 16px;
   }
 }
