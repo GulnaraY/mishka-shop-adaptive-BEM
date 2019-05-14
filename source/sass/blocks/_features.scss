@@ -21,8 +21,19 @@
 
 .features__item {
   padding-top: 85px;
+  position: relative;
+}
+
+.features__item::before {
+  content: "";
+  position: absolute;
+  top: 58px;
+  left: 25px;
+  transform: translateX(-50%) translateY(-50%);
+  width: 55px;
+  height: 37px;
   background-repeat: no-repeat;
-  background-position: 0 30%;
+  background-position: center center;
 }
 
 .features__text {
@@ -30,27 +41,27 @@
   margin: 0;
 }
 
-.features__item--first {
+.features__item--first::before {
   background-image: url("../img/icon-feature-flower.svg");
 }
 
-.features__item--second {
+.features__item--second::before {
   background-image: url("../img/icon-feature-money.svg");
 }
 
-.features__item--third {
+.features__item--third::before {
   background-image: url("../img/icon-feature-heart.svg");
 }
 
-.features__item--fourth {
+.features__item--fourth::before {
   background-image: url("../img/icon-feature-ball.svg");
 }
 
-.features__item--fifth {
+.features__item--fifth::before {
   background-image: url("../img/icon-feature-rocket.svg");
 }
 
-.features__item--sixth {
+.features__item--sixth::before {
   background-image: url("../img/icon-feature-gift.svg");
 }
 
@@ -65,7 +76,6 @@
     flex-direction: row;
     flex-wrap: wrap;
     align-content: center;
-    align-items: center;
     font-size: $font-size-tablet-s;
     line-height: $line-height-tablet-m;
   }
