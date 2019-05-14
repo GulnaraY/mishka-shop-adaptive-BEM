@@ -15,18 +15,6 @@
   outline: none;
 }
 
-.textarea-block__input::-webkit-input-placeholder {
-  color: $content-color-opacity-second;
-}
-
-.textarea-block__input::-moz-placeholder {
-  color: $content-color-opacity-second;
-}
-
-.textarea-block__input:-moz-placeholder {
-  color: $content-color-opacity-second;
-}
-
-.textarea-block__input:-ms-input-placeholder {
+.textarea-block__input::placeholder {
   color: $content-color-opacity-second;
 }

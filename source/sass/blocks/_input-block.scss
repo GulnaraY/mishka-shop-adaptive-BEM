@@ -22,19 +22,7 @@
   outline: none;
 }
 
-.input-block__input::-webkit-input-placeholder {
-  color: $content-color-opacity-second;
-}
-
-.input-block__input::-moz-placeholder {
-  color: $content-color-opacity-second;
-}
-
-.input-block__input:-moz-placeholder {
-  color: $content-color-opacity-second;
-}
-
-.input-block__input:-ms-input-placeholder {
+.input-block__input::placeholder {
   color: $content-color-opacity-second;
 }
 
