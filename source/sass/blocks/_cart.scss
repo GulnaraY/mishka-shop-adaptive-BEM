@@ -8,6 +8,7 @@
 
 .cart__icon {
   opacity: 0.2;
+  fill: $svg-color;
 }
 
 .cart:hover .cart__info,
@@ -22,10 +23,6 @@
 .cart:hover .cart__icon,
 .cart:focus .cart__icon {
   opacity: 1;
-}
-
-.cart:hover .cart__icon-path,
-.cart:focus .cart__icon-path {
   fill: $accent-color-main;
 }
 

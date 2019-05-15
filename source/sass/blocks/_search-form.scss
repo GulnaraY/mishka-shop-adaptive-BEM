@@ -3,6 +3,7 @@
 }
 
 .search-form__icon {
+  fill: $svg-color;
   position: absolute;
   width: 17.6px;
   height: 17.6px;
@@ -16,10 +17,6 @@
 .search-form:hover .search-form__icon,
 .search-form:focus .search-form__icon {
   opacity: 1;
-}
-
-.search-form:hover path,
-.search-form:focus path {
   fill: $accent-color-main;
 }
 
