@@ -15,8 +15,12 @@
   height: 54px;
 }
 
-.copyright__link:hover path,
-.copyright__link:focus path {
+.copyright__link svg {
+  fill: $accent-color-main;
+}
+
+.copyright__link:hover svg,
+.copyright__link:focus svg {
   fill: $hover-color-second;
 }
 

@@ -15,8 +15,12 @@
   margin-right: 0;
 }
 
-.social__link:hover path,
-.social__item:focus path {
+.social__link svg {
+  fill: $svg-color;
+}
+
+.social__link:hover svg,
+.social__item:focus svg {
   fill: $hover-color-second;
 }
 

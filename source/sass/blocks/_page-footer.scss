@@ -13,8 +13,12 @@
   display: none;
 }
 
-.page-footer__logo:hover svg,
-.page-footer__logo:focus svg {
+.page-footer__logo-image {
+  fill:$main-color;
+}
+
+a[href].page-footer__logo:hover .page-footer__logo-image,
+a[href].page-footer__logo:focus .page-footer__logo-image {
   fill: $hover-color-second;
 }
 
