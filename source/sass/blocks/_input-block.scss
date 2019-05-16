@@ -28,10 +28,11 @@
 
 .input-block__icon {
   position: absolute;
-  bottom: 17px;
+  bottom: 26px;
   right: 0;
   width: 32px;
-  height: 24px;
+  height: 26px;
+  fill: rgba(0, 0, 0, 0.2);
 }
 
 .input-block__input--icon:hover + .input-block__icon {
