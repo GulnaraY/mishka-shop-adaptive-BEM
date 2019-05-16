@@ -87,13 +87,17 @@
   opacity: 0.2;
 }
 
+.catalog-card__cart-link svg {
+  fill: $svg-color;
+}
+
 .catalog-card__cart-link:hover,
 .catalog-card__cart-link:focus {
   opacity: 1;
 }
 
-.catalog-card__cart-link:hover path,
-.catalog-card__cart-link:focus path {
+.catalog-card__cart-link:hover svg,
+.catalog-card__cart-link:focus svg {
   fill: $accent-color-main;
 }
 
