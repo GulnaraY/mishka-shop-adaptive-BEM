@@ -1,13 +1,17 @@
 .top-product__wrapper {
   @include mobile-wrapper;
+  background-image: url("../img/bg-zigzag-line.svg");
+  background-repeat: no-repeat;
+  background-position: -2px 100%;
+  background-size: contain;
+  padding-bottom: 5px;
 }
 
 .top-product__title {
   font-weight: $font-weight-bold;
   margin: 0;
   padding: 0;
-  margin-top: 34px;
-  margin-bottom: 8px;
+  margin-top: 28px;
 }
 
 .top-product__label {
@@ -23,16 +27,16 @@
   margin: 0;
   padding: 0;
   line-height: $line-height-s;
-  margin-top: 30px;
-  margin-bottom: 33px;
+  margin-top: 18px;
+  margin-bottom: 17px;
 }
 
 .top-product__options {
-  margin-bottom: 28px;
+  margin-bottom: 29px;
 }
 
 .top-product__image {
-  margin-bottom: 29px;
+  margin-bottom: 15px;
   width: 260px;
   height: 315px;
   background-color: $image-background-color;
@@ -46,7 +50,7 @@
   margin: 0;
   padding: 0;
   text-align: center;
-  margin-bottom: 28px;
+  margin-bottom: 27px;
 }
 
 .top-product__button {
@@ -57,10 +61,6 @@
   .top-product__wrapper {
     @include tablet-wrapper;
     position: relative;
-    background-image: url("../img/bg-zigzag-line.svg");
-    background-repeat: no-repeat;
-    background-position: 0 100%;
-    padding-bottom: 53px;
   }
 
   .top-product__content {

@@ -1,18 +1,19 @@
 .copyright {
   display: flex;
   justify-content: space-around;
-  align-items: center;
 }
 
 .copyright__text {
   font-weight: $font-weight-bold;
   font-size: $font-size-l;
   line-height: $line-height-sx;
+  padding-left: 22px;
 }
 
 .copyright__link {
-  width: 43px;
+  width: 53px;
   height: 54px;
+  overflow: hidden;
 }
 
 .copyright__link svg {

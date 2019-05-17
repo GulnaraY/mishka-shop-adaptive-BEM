@@ -1,6 +1,6 @@
 .features {
   font-weight: $font-weight-bold;
-  margin-bottom: 61px;
+  margin-bottom: 52px;
 }
 
 .features__wrapper {
@@ -8,7 +8,7 @@
 }
 
 .features__title {
-  margin-bottom: 34px;
+  margin-top: 28px;
 }
 
 .features__list {
@@ -20,15 +20,15 @@
 }
 
 .features__item {
-  padding-top: 85px;
+  padding-top: 84px;
   position: relative;
 }
 
 .features__item::before {
   content: "";
   position: absolute;
-  top: 58px;
-  left: 25px;
+  top: 46px;
+  left: 21px;
   transform: translateX(-50%) translateY(-50%);
   width: 55px;
   height: 37px;

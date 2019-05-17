@@ -4,11 +4,16 @@
 
 .contacts__full-wrapper {
   @include mobile-full-wrapper;
+  padding-top: 42px;
+  background-image: url("../img/bg-zigzag-line.svg");
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  background-size: contain;
 }
 
 .contacts__title {
   font-size: $font-size-xm;
-  margin-bottom: 42px;
+  margin-bottom: 24px;
 }
 
 .contacts__list {
@@ -20,16 +25,16 @@
 .contacts__name {
   display: inline-block;
   vertical-align: top;
-  width: 58px;
+  width: 73px;
 }
 
 .contacts__value {
   display: inline-block;
   vertical-align: top;
-  width: 178px;
+  width: 142px;
   margin: 0;
   padding: 0;
-  margin-bottom: 42px;
+  margin-bottom: 33px;
 }
 
 .contacts__mail-link {
@@ -87,10 +92,6 @@
   width: 322px;
   height: 457px;
   background-color: $image-background-color;
-}
-
-.contacts__button {
-  margin-bottom: 39px;
 }
 
 @media (min-width: $tablet-full-width) {

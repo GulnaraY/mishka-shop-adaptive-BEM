@@ -4,11 +4,12 @@
   list-style: $list-style;
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
 .social__item {
-  width: 22px;
-  margin-right: 40px;
+  width: 26px;
+  margin-right: 33px;
 }
 
 .social__item:last-child {
