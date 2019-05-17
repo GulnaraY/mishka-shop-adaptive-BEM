@@ -133,15 +133,19 @@ a[href].site-navigation__logo:active {
   .site-navigation {
     flex-direction: row;
     justify-content: space-between;
+    font-size: $font-size-s;
+    line-height: $line-height-s;
   }
 
   .site-navigation__block--first {
     display: flex;
     flex-wrap: wrap;
+    width: 321px;
   }
 
   .site-navigation__block--second {
     display: flex;
+    width: 351px;
   }
 
   .site-navigation__logo-image {
@@ -167,7 +171,7 @@ a[href].site-navigation__logo:active {
   }
 
   .site-navigation__nav {
-    padding-top: 25px;
+    padding-top: 18px;
     margin-bottom: -50px;
     z-index: 3;
   }

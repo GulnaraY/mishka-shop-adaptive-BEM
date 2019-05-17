@@ -66,6 +66,9 @@
 }
 
 @media (min-width: $tablet-full-width) {
+  .features {
+    margin-bottom: 88px;
+  }
   .features__wrapper {
     @include tablet-wrapper;
     margin-top: 40px;
@@ -80,8 +83,18 @@
     line-height: $line-height-tablet-m;
   }
 
+  .features__title {
+    margin-top: 50px;
+  }
+
   .features__item {
-    width: 283px;
+    width: 334px;
+    padding-top: 107px;
+  }
+
+  .features__item::before {
+    top: 68px;
+    left: 23px;
   }
 
   .features__text {

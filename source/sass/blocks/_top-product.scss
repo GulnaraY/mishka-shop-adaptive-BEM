@@ -61,6 +61,7 @@
   .top-product__wrapper {
     @include tablet-wrapper;
     position: relative;
+    padding-bottom: 31px;
   }
 
   .top-product__content {
@@ -74,15 +75,16 @@
   }
 
   .top-product__description {
+    width: 285px;
     margin: 0;
-    margin-bottom: 54px;
+    margin-bottom: 35px;
     padding: 0;
     font-size: $font-size-m;
     line-height: $line-height-m;
   }
 
   .top-product__pricing {
-    margin-top: -150px;
+    margin-top: -140px;
     width: 292px;
     display: flex;
     flex-direction: column;
@@ -91,11 +93,13 @@
   }
 
   .top-product__title {
-    margin-bottom: 55px;
+    margin-bottom: 50px;
+    margin-top: 34px;
   }
 
   .top-product__price-block {
-    font-size: $font-size-tablet-m;
+    font-size: $font-size-tablet-s;
+    margin-bottom: 37px;
   }
 
   .top-product__image {

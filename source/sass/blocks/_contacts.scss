@@ -95,6 +95,10 @@
 }
 
 @media (min-width: $tablet-full-width) {
+  .contacts {
+    margin-bottom: 57px;
+  }
+
   .contacts__wrapper {
     @include tablet-wrapper;
   }
@@ -104,7 +108,8 @@
     background-image: url("../img/bg-zigzag-line.svg"),
       url("../img/icon-flag.svg");
     background-repeat: no-repeat;
-    background-position: 0 0, 100% 70px;
+    background-position: 0 0, 668px 62px;
+    background-size: contain, auto;
     padding-top: 70px;
   }
 
@@ -113,10 +118,15 @@
     flex-wrap: wrap;
     justify-content: space-between;
     font-size: $font-size-m;
+    margin-bottom: 23px;
   }
 
   .contacts__name {
-    margin-right: 23px;
+    width: 74px;
+  }
+
+  .contacts__value {
+    width: 255px;
   }
 
   .contacts__button {
@@ -129,6 +139,12 @@
 
   .contacts__title {
     font-size: $font-size-tablet-l;
+    margin-top: 7px;
+    margin-bottom: 49px;
+  }
+
+  .contacts__map {
+    margin-bottom: 55px;
   }
 
   .contacts__map::before {

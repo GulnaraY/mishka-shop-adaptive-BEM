@@ -78,7 +78,7 @@
   .reviews__wrapper {
     @include tablet-wrapper;
     position: relative;
-    margin-bottom: 69px;
+    margin-bottom: 85px;
   }
 
   .reviews__wrapper::before {
@@ -101,7 +101,8 @@
   }
 
   .reviews__title {
-    margin-top: 86px;
+    margin-top: 76px;
+    margin-bottom: 49px;
   }
 
   .reviews__button {
@@ -113,8 +114,8 @@
 
   .reviews__pagination {
     position: absolute;
-    right: 50px;
-    bottom: 0;
+    right: 69px;
+    bottom: -4px ;
     width: 137px;
     min-height: 26px;
     justify-content: space-between;
@@ -127,6 +128,7 @@
 
   .reviews__text {
     font-size: $font-size-m;
+    margin-bottom: 54px;
   }
 
   .reviews__author {
