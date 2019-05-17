@@ -131,16 +131,32 @@
     flex-basis: 350px;
   }
 
+  .top-product__title {
+    margin-top: 113px;
+  }
+
   .top-product__image {
     position: relative;
     width: 525px;
     height: 636px;
-    margin-top: -117px;
+    margin-top: -160px;
     z-index: -1;
   }
 
   .top-product__label {
-    top: 0;
+    top: 15px;
     left: 97px;
+  }
+
+  .top-product__description {
+    margin-bottom: 48px;
+  }
+
+  .top-product__pricing {
+    margin-top: -135px;
+  }
+
+  .top-product__button {
+    margin-bottom: 62px;
   }
 }

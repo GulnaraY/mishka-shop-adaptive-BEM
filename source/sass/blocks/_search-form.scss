@@ -35,3 +35,9 @@
     display: none;
   }
 }
+
+@media (min-width: $desktop-full-width) {
+  .search-form {
+    width: 86px;;
+  }
+}

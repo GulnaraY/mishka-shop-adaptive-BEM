@@ -123,6 +123,10 @@
 }
 
 @media (min-width: $desktop-full-width) {
+  .features {
+    margin-bottom: 95px;
+  }
+  
   .features__wrapper {
     @include desktop-wrapper;
     width: 700px;
@@ -131,7 +135,11 @@
     margin-top: 40px;
   }
 
+  .features__title {
+    margin-top: 60px;
+  }
+
   .features__item {
-    width: 297px;
+    width: 350px;
   }
 }

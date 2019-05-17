@@ -141,11 +141,20 @@
     @include desktop-wrapper;
     width: 875px;
     padding-left: 225px;
-    margin-bottom: 69px;
+    margin-bottom: 133px;
+  }
+
+  .reviews__title {
+    margin-top: 70px;
   }
 
   .reviews__wrapper::before {
     left: 50px;
+  }
+
+  .reviews__text {
+    width: 770px;
+    margin-bottom: 36px;
   }
 
   .reviews__author {
