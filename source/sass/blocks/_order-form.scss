@@ -88,7 +88,27 @@
 
 @media (min-width: $tablet-full-width) {
   .order-form__item {
-    padding: 50px;
+    padding-left: 55px;
+    padding-right: 50px;
+    padding-top: 33px;
+    margin-bottom: 53px;
+  }
+
+  .order-form__item--color{
+    padding-top: 50px;
+    padding-bottom: 32px;
+    margin-bottom: 48px;
+  }
+
+  .order-form__item--contacts {
+    padding-top: 47px;
+    padding-bottom: 52px;
+    margin-bottom: 16px;
+  }
+
+  .order-form__item--personal {
+    padding-top: 0;
+    margin-bottom: 50px;
   }
 
   .order-form__element {
@@ -98,10 +118,15 @@
   .order-form__element--input {
     display: flex;
     align-items: center;
+    margin-bottom: 22px;
+  }
+
+  .order-form__element--contacts {
+    margin-bottom: 20px;
   }
 
   .order-form__element--checkbox {
-    width: 235px;
+    width: 238px;
   }
 
   .order-form__item:nth-child(2n) {
@@ -111,7 +136,7 @@
   .order-form__item-wrapper {
     display: flex;
     flex-direction: row;
-    align-items: baseline;
+    align-items: flex-start;
   }
 
   .order-form__right-block {
@@ -134,7 +159,8 @@
   }
 
   .order-form__title {
-    width: 166px;
+    width: 165px;
+    padding-top: 20px;
   }
 
   .order-form__title::before {
@@ -159,6 +185,12 @@
 
   .order-form__text-label {
     display: inline-block;
+  }
+
+  .order-form__note {
+    font-size: $font-size-m;
+    line-height: $line-height-m;
+    margin-bottom: 4px;
   }
 }
 

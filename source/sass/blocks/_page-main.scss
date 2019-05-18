@@ -23,9 +23,14 @@
   .page-main__intro {
     margin-left: 50px;
     margin-right: 50px;
+    margin-top: 61px;
     width: 612px;
     font-size: $font-size-m;
     line-height: $line-height-m;
+  }
+
+  .page-main__form {
+    margin-bottom: 50px;
   }
 }
 

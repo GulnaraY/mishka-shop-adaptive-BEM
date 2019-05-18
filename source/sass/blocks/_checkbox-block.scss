@@ -40,9 +40,6 @@
 }
 
 @media (min-width: $tablet-full-width) {
-  .checkbox-block__label {
-    padding-left: 82px;
-  }
 
   .checkbox-block__input+.checkbox-block__label::before {
     width: 54px;

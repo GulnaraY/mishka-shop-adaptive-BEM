@@ -38,13 +38,10 @@
 }
 
 @media (min-width: $tablet-full-width) {
-  .radio-block__label {
-    padding-left: 82px;
-  }
-
   .radio-block__input+.radio-block__label::before {
     width: 52px;
     height: 52px;
+    margin-right: 29px;
   }
 
   .radio-block__input:checked+.radio-block__label::after {
