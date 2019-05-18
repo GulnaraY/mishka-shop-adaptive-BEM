@@ -36,11 +36,16 @@
 
 @media (min-width: $desktop-full-width) {
   .page-main__wrapper {
-    @include desktop-wrapper;
+    @include desktop-full-wrapper;
   }
 
   .page-main__intro {
     margin-left: 225px;
+    margin-top: 103px;
     width: 672px;
+  }
+
+  .page-main__form {
+    margin-bottom: 47px;
   }
 }

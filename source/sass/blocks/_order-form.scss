@@ -199,11 +199,43 @@
     width: 786px;
   }
 
+  .order-form__right-block--column {
+    width: 700px;
+  }
+
+  .order-form__item--color {
+    margin-bottom: 45px;
+  }
+
+  .order-form__element--checkbox {
+    width: 261px;
+  }
+
+  .order-form__element--contacts {
+    width: 870px;
+  }
+
+  .order-form__item--text {
+    width: 870px;
+  }
+
   .order-form__title {
-    width: 175px;
+    width: 170px;
+    box-sizing: border-box;
+    padding-top: 18px;
+    padding-left: 60px;
+  }
+
+  .order-form__title--contacts {
+    width: 183px;
+  }
+
+  .order-form__title--text {
+    width: 183px;
   }
 
   .order-form__bottom {
     padding-left: 225px;
+    padding-right: 225px;
   }
 }

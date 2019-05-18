@@ -51,3 +51,9 @@
     height: 22px;
   }
 }
+
+@media (min-width: $desktop-full-width) {
+  .checkbox-block__input+.checkbox-block__label::before {
+    margin-right: 25px;
+  }
+}
