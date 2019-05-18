@@ -42,16 +42,15 @@
   fill: rgba(0, 0, 0, 0.2);
 }
 
+.input-block__input--icon:invalid + .input-block__icon {
+  fill: $invalid-color;
+}
 .input-block__input--icon:hover + .input-block__icon {
   fill: $accent-color-fourth;
 }
 
 .input-block__input--icon:focus + .input-block__icon {
   fill: $accent-color-fourth;
-}
-
-.input-block__input:invalid + .input-block__icon {
-  fill: $invalid-color;
 }
 
 @media (min-width: $tablet-full-width) {
