@@ -10,7 +10,13 @@
   padding-right: 17px;
   padding-bottom: 17px;
   border: none;
-  border-bottom: 1px solid $main-color;
+  border-bottom: 1px solid;
+  border-bottom-color: $main-color;
+}
+
+.input-block__input:invalid {
+  border-bottom-color: $invalid-color;
+  background-color: transparent;
 }
 
 .input-block__input:hover {
@@ -19,10 +25,11 @@
 
 .input-block__input:focus {
   border-bottom-color: $accent-color-fourth;
+  background-color: transparent;
   outline: none;
 }
 
-.input-block__input::placeholder {
+.input-block__input:placeholder {
   color: $content-color-opacity-second;
 }
 
@@ -41,6 +48,10 @@
 
 .input-block__input--icon:focus + .input-block__icon {
   fill: $accent-color-fourth;
+}
+
+.input-block__input:invalid + .input-block__icon {
+  fill: $invalid-color;
 }
 
 @media (min-width: $tablet-full-width) {
