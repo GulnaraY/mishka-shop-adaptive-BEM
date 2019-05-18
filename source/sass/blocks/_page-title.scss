@@ -12,36 +12,37 @@
   font-size: $font-size-xxxl;
   line-height: $line-height-m;
   background-color: $accent-color-third;
-  padding-top: 74px;
-  padding-bottom: 74px;
+  padding-top: 71px;
+  padding-bottom: 76px;
 }
 
 @media (min-width: $tablet-full-width) {
+ .page-title {
+    @include tablet-full-wrapper;
+    margin-bottom: 38px;
+  }
+
   .page-title__text {
     font-size: $font-size-tablet-l;
     line-height: $line-height-tablet-l;
-    padding-top: 106px;
-    padding-bottom: 66px;
-  }
-}
-
-@media (min-width: $desktop-full-width) {
-  .page-title__text {
-    font-size: $font-size-desktop-l;
-    line-height: $line-height-desktop-l;
-    padding-top: 105px;
-    padding-bottom: 82px;
-  }
-}
-
-@media (min-width: $tablet-full-width) {
-  .page-title {
-    @include tablet-full-wrapper;
+    padding-top: 94px;
+    padding-bottom: 91px;
+    background-image: url("../img/bg-zigzag-fill.svg");
+    background-repeat: no-repeat;
+    background-position: 0 100%;
+    background-size: contain;
   }
 }
 
 @media (min-width: $desktop-full-width) {
   .page-title {
     @include desktop-full-wrapper;
+  }
+
+  .page-title__text {
+    font-size: $font-size-desktop-l;
+    line-height: $line-height-desktop-l;
+    padding-top: 96px;
+    padding-bottom: 120px;
   }
 }

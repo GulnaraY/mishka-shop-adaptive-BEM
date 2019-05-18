@@ -4,8 +4,12 @@
   padding: 0;
   font-size: $font-size-m;
   line-height: $line-height-sx;
-  margin-bottom: 30px;
+  margin-bottom: 32px;
   font-weight: $font-weight-bold;
+}
+
+.order-form__item--text {
+  margin-bottom: 13px;
 }
 
 .order-form__title {
@@ -18,7 +22,15 @@
   font-weight: $font-weight-bold;
   text-transform: uppercase;
   position: relative;
-  margin-bottom: 27px;
+  margin-bottom: 26px;
+}
+
+.order-form__title--personal {
+  margin-bottom: 29px;
+}
+
+.order-form__title--contacts {
+  margin-bottom: 3px;
 }
 
 .order-form__title::before {
@@ -35,17 +47,19 @@
   color: $content-color;
   font-size: $font-size-sx;
   line-height: $line-height-xxs;
+  display: block;
+  margin-bottom: 31px;
 }
 
 .order-form__element {
   margin: 0;
   padding: 0;
-  margin-bottom: 22px;
+  margin-bottom: 33px;
   box-sizing: border-box;
 }
 
-.color-block .order-form__element {
-  margin-bottom: 46px;
+.order-form__element--input {
+  margin-bottom: 20px;
 }
 
 .order-form__element:last-child {
@@ -66,6 +80,10 @@
 
 .order-form__additional {
   width: 260px;
+}
+
+.order-form__element--checkbox {
+  margin-bottom: 20px;
 }
 
 @media (min-width: $tablet-full-width) {

@@ -12,5 +12,6 @@
 @media (min-width: $desktop-full-width) {
   .products-catalog__wrapper {
     @include desktop-wrapper;
+    padding-top: 111px;
   }
 }

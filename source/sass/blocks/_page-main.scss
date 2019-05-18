@@ -4,12 +4,15 @@
 
 .page-main__intro {
   margin: 0;
-  margin-top: 29px;
-  margin-bottom: 30px;
+  margin-top: 21px;
+  margin-bottom: 24px;
   padding: 0;
   color: $content-color;
   font-size: $font-size-xs;
   line-height: $line-height-s;
+}
+.page-main__form {
+  margin-bottom: 55px;
 }
 
 @media (min-width: $tablet-full-width) {
