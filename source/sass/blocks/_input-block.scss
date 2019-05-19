@@ -45,6 +45,7 @@
 .input-block__input--icon:invalid + .input-block__icon {
   fill: $invalid-color;
 }
+
 .input-block__input--icon:hover + .input-block__icon {
   fill: $accent-color-fourth;
 }
@@ -55,15 +56,11 @@
 
 @media (min-width: $tablet-full-width) {
   .input-block__label {
-    margin-right: 25px;
+    margin-right: 34px;
   }
 
   .input-block__input {
     padding-left: 18px;
-  }
-
-  .input-block__label {
-    margin-right: 34px;
   }
 
   .input-block__icon {

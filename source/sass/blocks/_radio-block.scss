@@ -1,6 +1,7 @@
 .radio-block {
   margin-bottom: 17px;
 }
+
 .radio-block__label {
   position: relative;
   display: flex;
@@ -38,13 +39,13 @@
 }
 
 @media (min-width: $tablet-full-width) {
-  .radio-block__input+.radio-block__label::before {
+  .radio-block__input + .radio-block__label::before {
     width: 52px;
     height: 52px;
     margin-right: 29px;
   }
 
-  .radio-block__input:checked+.radio-block__label::after {
+  .radio-block__input:checked + .radio-block__label::after {
     width: 22px;
     height: 22px;
     left: 16px;

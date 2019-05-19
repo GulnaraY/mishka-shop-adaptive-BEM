@@ -94,7 +94,7 @@
     margin-bottom: 53px;
   }
 
-  .order-form__item--color{
+  .order-form__item--color {
     padding-top: 50px;
     padding-bottom: 32px;
     margin-bottom: 48px;
@@ -181,16 +181,13 @@
 
   .order-form__note {
     order: 2;
+    font-size: $font-size-m;
+    line-height: $line-height-m;
+    margin-bottom: 4px;
   }
 
   .order-form__text-label {
     display: inline-block;
-  }
-
-  .order-form__note {
-    font-size: $font-size-m;
-    line-height: $line-height-m;
-    margin-bottom: 4px;
   }
 }
 

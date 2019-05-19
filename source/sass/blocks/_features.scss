@@ -69,6 +69,7 @@
   .features {
     margin-bottom: 88px;
   }
+
   .features__wrapper {
     @include tablet-wrapper;
     margin-top: 40px;
@@ -126,7 +127,7 @@
   .features {
     margin-bottom: 95px;
   }
-  
+
   .features__wrapper {
     @include desktop-wrapper;
     width: 700px;

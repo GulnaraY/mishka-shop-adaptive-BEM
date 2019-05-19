@@ -99,6 +99,9 @@
     flex-direction: row;
     width: 668px;
     margin: 0 auto;
+    align-items: flex-end;
+    position: relative;
+    z-index: 12;
   }
 
   .categories-list__item {
@@ -115,6 +118,13 @@
     background-repeat: no-repeat;
     background-size: auto 24px;
     background-position: 0 107px;
+    z-index: 12;
+  }
+
+  .categories-list__link:hover,
+  .categories-list__link:focus {
+    padding-bottom: 47px;
+    z-index: 12;
   }
 
   .categories-list__link--first {
@@ -123,11 +133,6 @@
 
   .categories-list__link--second {
     background-position: -20px 100%;
-  }
-
-  .categories-list__link:hover,
-  .categories-list__link:focus {
-    padding-bottom: 65px;
   }
 }
 

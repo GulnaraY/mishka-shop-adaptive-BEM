@@ -17,7 +17,7 @@
 }
 
 @media (min-width: $tablet-full-width) {
- .page-title {
+  .page-title {
     @include tablet-full-wrapper;
     margin-bottom: 38px;
   }

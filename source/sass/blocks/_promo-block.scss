@@ -33,15 +33,27 @@
   .promo-block__wrapper {
     @include tablet-full-wrapper;
     border-top: 1px solid $border-color-second;
-    background-image: url("../img/bg-zigzag-fill.svg"),
-      url("../img/hero-tablet@1x.jpg");
-    background-position: 0 100%, 50% 0;
-
+    background-image: url("../img/hero-tablet@1x.jpg");
+    background-position: 50% 0;
     @media (min-resolution: $retina-dpi), (min-resolution: $retina-dppx) {
-      background-image: url("../img/bg-zigzag-fill.svg"),
-        url("../img/hero-tablet@2x.jpg");
-      background-size: contain, 1150px auto;
+      background-image: url("../img/hero-tablet@2x.jpg");
+      background-size: 1150px auto;
     }
+    position: relative;
+  }
+
+  .promo-block__wrapper::before {
+    content: "";
+    left: 0;
+    position: absolute;
+    bottom: 0;
+    background-size: auto 24px;
+    background-image: url("../img/bg-zigzag-fill.svg");
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    width: 100%;
+    height: 24px;
+    z-index: 9;
   }
 
   .promo-block__title {
@@ -55,14 +67,17 @@
 @media (min-width: $desktop-full-width) {
   .promo-block__wrapper {
     @include desktop-full-wrapper;
-    background-image: url("../img/bg-zigzag-fill.svg"),
-      url("../img/hero-desktop@1x.jpg");
+    background-image: url("../img/hero-desktop@1x.jpg");
 
     @media (min-resolution: $retina-dpi), (min-resolution: $retina-dppx) {
-      background-image: url("../img/bg-zigzag-fill.svg"),
-        url("../img/hero-desktop@2x.jpg");
-      background-size: contain, 1150px auto;
+      background-image: url("../img/hero-desktop@2x.jpg");
+      background-size: 1150px auto;
     }
+  }
+
+  .promo-block__wrapper::before {
+    background-size: auto 34px;
+    height: 34px;
   }
 
   .promo-block__title {
