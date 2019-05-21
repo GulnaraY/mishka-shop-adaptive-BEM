@@ -19,6 +19,8 @@
 @media (min-width: $tablet-full-width) {
   .page-main__wrapper {
     @include tablet-full-wrapper;
+    padding-left: 0;
+    padding-right: 0;
   }
 
   .page-main__intro {

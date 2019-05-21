@@ -165,10 +165,9 @@
 
   .contacts__full-wrapper {
     @include desktop-full-wrapper;
-    padding-right: 50px;
     display: flex;
     flex-wrap: wrap;
-    background-position: 74px 0, 138px 154px;
+    background-position: 74px 0, 114px 154px;
     background-size: 1052px, 47px;
   }
 
@@ -178,7 +177,7 @@
     margin-right: 29px;
     width: 875px;
     padding-right: 0;
-    padding-left: 248px;
+    padding-left: 225px;
     box-sizing: border-box;
   }
 
