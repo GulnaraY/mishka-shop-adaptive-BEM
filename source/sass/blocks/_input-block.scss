@@ -1,0 +1,69 @@
+.input-block {
+  position: relative;
+}
+
+.input-block__input {
+  background-color: transparent;
+  box-sizing: border-box;
+  color: $content-color;
+  padding-top: 17px;
+  padding-right: 17px;
+  padding-bottom: 17px;
+  border: none;
+  border-bottom: 1px solid;
+  border-bottom-color: $main-color;
+}
+
+.input-block__input:invalid {
+  border-bottom-color: $invalid-color;
+  background-color: transparent;
+}
+
+.input-block__input:hover {
+  border-bottom-color: $accent-color-fourth;
+}
+
+.input-block__input:focus {
+  border-bottom-color: $accent-color-fourth;
+  background-color: transparent;
+  outline: none;
+}
+
+.input-block__input:placeholder {
+  color: $content-color-opacity-second;
+}
+
+.input-block__icon {
+  position: absolute;
+  bottom: 15px;
+  right: 0;
+  width: 32px;
+  height: 26px;
+  fill: rgba(0, 0, 0, 0.2);
+}
+
+.input-block__input--icon:invalid + .input-block__icon {
+  fill: $invalid-color;
+}
+
+.input-block__input--icon:hover + .input-block__icon {
+  fill: $accent-color-fourth;
+}
+
+.input-block__input--icon:focus + .input-block__icon {
+  fill: $accent-color-fourth;
+}
+
+@media (min-width: $tablet-full-width) {
+  .input-block__label {
+    margin-right: 34px;
+  }
+
+  .input-block__input {
+    padding-left: 18px;
+  }
+
+  .input-block__icon {
+    right: 2px;
+  }
+}

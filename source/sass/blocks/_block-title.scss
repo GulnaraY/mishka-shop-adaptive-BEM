@@ -1,0 +1,21 @@
+.block-title {
+  font-weight: $font-weight-bold;
+  font-size: $font-size-xl;
+  line-height: $line-height-m;
+  margin: 0;
+  padding: 0;
+}
+
+@media (min-width: $tablet-full-width) {
+  .block-title {
+    font-size: $font-size-tablet-l;
+    line-height: $line-height-tablet-l;
+  }
+}
+
+@media (min-width: $desktop-full-width) {
+  .block-title {
+    font-size: $font-size-desktop-l;
+    line-height: $line-height-desktop-l;
+  }
+}

@@ -1,0 +1,30 @@
+.social__list {
+  margin: 0;
+  padding: 0;
+  list-style: $list-style;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social__item {
+  width: 26px;
+  margin-right: 33px;
+}
+
+.social__item:last-child {
+  margin-right: 0;
+}
+
+.social__link svg {
+  fill: $svg-color;
+}
+
+.social__link:hover svg,
+.social__item:focus svg {
+  fill: $hover-color-second;
+}
+
+.social__link:active {
+  opacity: 0.3;
+}

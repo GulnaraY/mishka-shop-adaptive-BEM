@@ -1,0 +1,30 @@
+.products-list {
+  margin: 0;
+  padding: 0;
+  list-style: $list-style;
+  margin-bottom: 36px;
+}
+
+.products-list__item {
+  margin-bottom: 31px;
+}
+
+@media (min-width: $tablet-full-width) {
+  .products-list__item {
+    margin-bottom: 54px;
+  }
+}
+
+@media (min-width: $desktop-full-width) {
+  .products-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 4px;
+  }
+
+  .products-list__item {
+    width: 316px;
+    margin-bottom: 53px;
+  }
+}

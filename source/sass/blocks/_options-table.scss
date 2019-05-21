@@ -1,0 +1,31 @@
+.options-table {
+  color: $content-color;
+  line-height: $line-height-xs;
+  border-collapse: collapse;
+}
+
+.options-table__header-row {
+  display: none;
+}
+
+.options-table__item {
+  border-bottom: 1px solid $border-color;
+  box-sizing: border-box;
+  padding-top: 10px;
+  padding-bottom: 9px;
+  padding-right: 10px;
+}
+
+.options-table__feature {
+  width: 94px;
+}
+
+.options-table__value {
+  width: 155px;
+}
+
+@media (min-width: $tablet-full-width) {
+  .options-table__value {
+    width: 185px;
+  }
+}

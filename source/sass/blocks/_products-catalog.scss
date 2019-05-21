@@ -1,0 +1,17 @@
+.products-catalog__wrapper {
+  @include mobile-wrapper;
+  padding-top: 30px;
+}
+
+@media (min-width: $tablet-full-width) {
+  .products-catalog__wrapper {
+    @include tablet-wrapper;
+  }
+}
+
+@media (min-width: $desktop-full-width) {
+  .products-catalog__wrapper {
+    @include desktop-wrapper;
+    padding-top: 111px;
+  }
+}
