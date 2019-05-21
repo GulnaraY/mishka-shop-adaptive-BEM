@@ -178,6 +178,10 @@ a[href].site-navigation__logo:active {
 }
 
 @media (min-width: $desktop-full-width) {
+  .site-navigation {
+    font-size: $font-size-m;
+  }
+
   .site-navigation__mobile-block {
     order: 2;
     padding: 0;
@@ -200,5 +204,9 @@ a[href].site-navigation__logo:active {
   .site-navigation__block--first {
     align-items: center;
     width: 700px;
+  }
+
+  .site-navigation__item {
+    padding-bottom: 13px;
   }
 }
