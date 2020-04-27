@@ -1,14 +1,16 @@
-# Интернет-магазин товаров для дома Мишка. Адаптивная верстка.
+# Интернет-магазин товаров для дома Мишка. 
+
+ ## Адаптивная верстка.
 
 * Проект выполнил: Гульнара Якупова.
 * Наставник проекта: Никита Дубко.
 
-## Собранную версию проекта смотреть <a href="https://github.com/GulnaraY/mishka-shop-publishing">ЗДЕСЬ</a>
+## <a href="https://github.com/GulnaraYakupova/mishka-shop-publishing">Собранная версия проекта</a>
 
 ## Опубликованная версия:
-### <a href="https://gulnaray.github.io/mishka-shop-publishing/">Главная страница</a>
-### <a href="https://gulnaray.github.io/mishka-shop-publishing/catalog.html/">Каталог товаров</a>
-### <a href="https://gulnaray.github.io/mishka-shop-publishing/">Страница с формой заказа</a>
+### <a href="https://gulnarayakupova.github.io/mishka-shop-publishing/">Главная страница</a>
+### <a href="https://gulnarayakupova.github.io/mishka-shop-publishing/catalog.html/">Каталог товаров</a>
+### <a href="https://gulnarayakupova.github.io/mishka-shop-publishing/">Страница с формой заказа</a>
 
 ## Инструкция по сборке проекта
 
