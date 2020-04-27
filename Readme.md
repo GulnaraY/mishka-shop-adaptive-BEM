@@ -9,8 +9,8 @@
 
 ## Опубликованная версия:
 ### <a href="https://gulnarayakupova.github.io/mishka-shop-publishing/">Главная страница</a>
-### <a href="https://gulnarayakupova.github.io/mishka-shop-publishing/catalog.html/">Каталог товаров</a>
-### <a href="https://gulnarayakupova.github.io/mishka-shop-publishing/">Страница с формой заказа</a>
+### <a href="https://gulnarayakupova.github.io/mishka-shop-publishing/catalog.html">Каталог товаров</a>
+### <a href="https://gulnarayakupova.github.io/mishka-shop-publishing/form.html">Страница с формой заказа</a>
 
 ## Инструкция по сборке проекта
 
